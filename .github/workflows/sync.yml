@@ -2,7 +2,7 @@ name: Daily sync
 
 on:
   schedule:
-    - cron: "0 */1 * * *" # Every 4 hours
+    - cron: "0 */1 * * *" # Every hour
   workflow_dispatch:
 
 permissions:
@@ -30,8 +30,7 @@ jobs:
           while IFS=$'\t' read -r repo branch fork; do
             [[ "$fork" == "true" ]] || continue
             echo "Syncing $ORG/$repo ($branch)"
-            gh api --method POST "repos/$ORG/$repo/merge-upstream" \
-              -f branch="$branch" || failed+=("$repo")
+            gh repo sync "$ORG/$repo" --branch "$branch" --force || failed+=("$repo")
           done < "$repos"
 
           ((${#failed[@]} == 0)) || {

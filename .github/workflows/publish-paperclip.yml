@@ -2,8 +2,7 @@ name: Publish Paperclip to Aliyun
 
 on:
   schedule:
-    # Upstream publishes its nightly at 09:00 UTC.
-    - cron: "30 10 * * *"
+    - cron: "0 */6 * * *" # Every 6 hours
   workflow_dispatch:
 
 concurrency:

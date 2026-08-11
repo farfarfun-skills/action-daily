@@ -2,9 +2,9 @@
 
 ## Publish Paperclip to Aliyun
 
-`Publish Paperclip to Aliyun` runs daily at 18:30 Asia/Shanghai, mirrors the
-official `paperclipai@nightly` package, and publishes it as `latest` in an
-Aliyun private npm registry. Configure these repository Actions secrets:
+`Publish Paperclip to Aliyun` runs every 6 hours, mirrors the official
+`paperclipai@nightly` package, and publishes it as `latest` in an Aliyun private
+npm registry. Configure these repository Actions secrets:
 
 - `ALIYUN_NPM_REGISTRY`: the full private registry URL
 - `ALIYUN_NPM_USERNAME`: the registry username
