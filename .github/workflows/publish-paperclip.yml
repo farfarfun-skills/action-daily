@@ -1,0 +1,49 @@
+name: Publish Paperclip to Aliyun
+
+on:
+  schedule:
+    # Upstream publishes its nightly at 09:00 UTC.
+    - cron: "30 10 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: publish-paperclip
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      NPM_REGISTRY: ${{ secrets.ALIYUN_NPM_REGISTRY }}
+      NPM_USERNAME: ${{ secrets.ALIYUN_NPM_USERNAME }}
+      NPM_PASSWORD: ${{ secrets.ALIYUN_NPM_PASSWORD }}
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Publish upstream nightly as latest
+        shell: bash
+        run: |
+          set -euo pipefail
+          : "${NPM_REGISTRY:?ALIYUN_NPM_REGISTRY is not set}"
+          : "${NPM_USERNAME:?ALIYUN_NPM_USERNAME is not set}"
+          : "${NPM_PASSWORD:?ALIYUN_NPM_PASSWORD is not set}"
+
+          auth="$(node -e 'process.stdout.write(Buffer.from(process.env.NPM_USERNAME + ":" + process.env.NPM_PASSWORD).toString("base64"))')"
+          registry_key="$(node -e 'const url = new URL(process.env.NPM_REGISTRY); process.stdout.write("//" + url.host + url.pathname.replace(/\/?$/, "/"))')"
+          printf 'registry=%s\n%s:_auth=%s\n' "$NPM_REGISTRY" "$registry_key" "$auth" > "$RUNNER_TEMP/paperclip.npmrc"
+          export NPM_CONFIG_USERCONFIG="$RUNNER_TEMP/paperclip.npmrc"
+
+          version="$(npm view paperclipai@nightly version --registry=https://registry.npmjs.org)"
+          current="$(npm view paperclipai@latest version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
+
+          if [[ "$current" == "$version" ]]; then
+            echo "paperclipai@$version is already latest."
+            exit 0
+          fi
+
+          tarball="$(npm pack "paperclipai@$version" --registry=https://registry.npmjs.org --silent)"
+          npm publish "$tarball" --registry="$NPM_REGISTRY" --tag=latest
+          [[ "$(npm view paperclipai@latest version --registry="$NPM_REGISTRY")" == "$version" ]]
