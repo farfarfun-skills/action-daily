@@ -30,7 +30,10 @@ jobs:
           while IFS=$'\t' read -r repo branch fork; do
             [[ "$fork" == "true" ]] || continue
             echo "Syncing $ORG/$repo ($branch)"
-            gh repo sync "$ORG/$repo" --branch "$branch" --force || failed+=("$repo")
+            if ! gh repo sync "$ORG/$repo" --branch "$branch"; then
+              echo "::warning::Normal sync failed for $repo; retrying with --force"
+              gh repo sync "$ORG/$repo" --branch "$branch" --force || failed+=("$repo")
+            fi
           done < "$repos"
 
           ((${#failed[@]} == 0)) || {
