@@ -38,18 +38,32 @@ jobs:
 
           read -r version_date hour <<< "$(TZ=Asia/Shanghai date '+%Y.%-m%d %-H')"
           version="$version_date.$((hour / 6))"
-          current="$(npm view paperclipai@latest version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
-
-          if [[ "$current" == "$version" ]]; then
-            echo "paperclipai@$version is already latest."
-            exit 0
-          fi
 
           source_version="$(npm view paperclipai@nightly version --registry=https://registry.npmjs.org)"
           tarball="$(npm pack "paperclipai@$source_version" --registry=https://registry.npmjs.org --pack-destination="$RUNNER_TEMP" --silent)"
           package_dir="$RUNNER_TEMP/paperclip-package"
           mkdir "$package_dir"
           tar -xzf "$RUNNER_TEMP/$tarball" -C "$package_dir" --strip-components=1
+
+          # paperclipai pins an exact @paperclipai/server version; mirror it too so
+          # `npm install paperclipai` can resolve that dependency from Aliyun.
+          server_version="$(node -p "require('$package_dir/package.json').dependencies['@paperclipai/server']")"
+          server_current="$(npm view "@paperclipai/server@$server_version" version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
+          if [[ "$server_current" != "$server_version" ]]; then
+            echo "Publishing @paperclipai/server@$server_version to Aliyun..."
+            server_tarball="$(npm pack "@paperclipai/server@$server_version" --registry=https://registry.npmjs.org --pack-destination="$RUNNER_TEMP" --silent)"
+            npm publish "$RUNNER_TEMP/$server_tarball" --registry="$NPM_REGISTRY" --tag=nightly
+            [[ "$(npm view "@paperclipai/server@$server_version" version --registry="$NPM_REGISTRY")" == "$server_version" ]]
+          else
+            echo "@paperclipai/server@$server_version is already on Aliyun."
+          fi
+
+          current="$(npm view paperclipai@latest version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
+          if [[ "$current" == "$version" ]]; then
+            echo "paperclipai@$version is already latest."
+            exit 0
+          fi
+
           npm --prefix "$package_dir" pkg set "version=$version"
           npm publish "$package_dir" --registry="$NPM_REGISTRY" --tag=latest
           [[ "$(npm view paperclipai@latest version --registry="$NPM_REGISTRY")" == "$version" ]]
