@@ -47,7 +47,19 @@ jobs:
 
           mirror_dependency() {
             local name="$1" range="$2" resolved current tarball_path
-            resolved="$(npm view "$name@$range" version --registry=https://registry.npmjs.org 2>/dev/null | tail -n1 || true)"
+            resolved="$(npm view "$name@$range" version --json --registry=https://registry.npmjs.org 2>/dev/null | node -e '
+              let d = "";
+              process.stdin.on("data", (c) => (d += c));
+              process.stdin.on("end", () => {
+                try {
+                  const v = JSON.parse(d);
+                  const arr = Array.isArray(v) ? v : [v];
+                  if (arr.length && typeof arr[arr.length - 1] === "string") {
+                    console.log(arr[arr.length - 1]);
+                  }
+                } catch {}
+              });
+            ' || true)"
             if [[ -z "$resolved" ]]; then
               echo "Skipping $name@$range: no matching version on npmjs."
               return
