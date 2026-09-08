@@ -16,6 +16,13 @@ The private registry must proxy the public npm registry so Paperclip's public
 dependencies remain installable. Configure it in the consuming project's
 `.npmrc`, then update with `npm install paperclipai@latest`.
 
+Paperclip also pins several scoped dependencies (e.g. `@paperclipai/server`,
+and the per-platform `@embedded-postgres/<platform>` optional dependencies)
+that the proxy may not have synced yet, including exact prerelease versions
+it can't resolve on its own. The workflow resolves and mirrors each of these
+from npmjs before publishing, so `npm install`/`pnpm install` don't silently
+skip an unresolved optional dependency.
+
 ## Sync organization forks
 
 `Sync organization forks` runs daily at 00:00 Asia/Shanghai and can also be

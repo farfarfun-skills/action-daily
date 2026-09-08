@@ -45,18 +45,39 @@ jobs:
           mkdir "$package_dir"
           tar -xzf "$RUNNER_TEMP/$tarball" -C "$package_dir" --strip-components=1
 
-          # paperclipai pins an exact @paperclipai/server version; mirror it too so
-          # `npm install paperclipai` can resolve that dependency from Aliyun.
-          server_version="$(node -p "require('$package_dir/package.json').dependencies['@paperclipai/server']")"
-          server_current="$(npm view "@paperclipai/server@$server_version" version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
-          if [[ "$server_current" != "$server_version" ]]; then
-            echo "Publishing @paperclipai/server@$server_version to Aliyun..."
-            server_tarball="$(npm pack "@paperclipai/server@$server_version" --registry=https://registry.npmjs.org --pack-destination="$RUNNER_TEMP" --silent)"
-            npm publish "$RUNNER_TEMP/$server_tarball" --registry="$NPM_REGISTRY" --tag=nightly
-            [[ "$(npm view "@paperclipai/server@$server_version" version --registry="$NPM_REGISTRY")" == "$server_version" ]]
-          else
-            echo "@paperclipai/server@$server_version is already on Aliyun."
-          fi
+          mirror_dependency() {
+            local name="$1" range="$2" resolved current tarball_path
+            resolved="$(npm view "$name@$range" version --registry=https://registry.npmjs.org 2>/dev/null | tail -n1 || true)"
+            if [[ -z "$resolved" ]]; then
+              echo "Skipping $name@$range: no matching version on npmjs."
+              return
+            fi
+            current="$(npm view "$name@$resolved" version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
+            if [[ "$current" == "$resolved" ]]; then
+              echo "$name@$resolved is already on Aliyun."
+              return
+            fi
+            echo "Publishing $name@$resolved to Aliyun..."
+            tarball_path="$(npm pack "$name@$resolved" --registry=https://registry.npmjs.org --pack-destination="$RUNNER_TEMP" --silent)"
+            npm publish "$RUNNER_TEMP/$tarball_path" --registry="$NPM_REGISTRY" --tag=nightly
+            [[ "$(npm view "$name@$resolved" version --registry="$NPM_REGISTRY")" == "$resolved" ]]
+          }
+
+          # paperclipai pins scoped dependencies (some exact, some prerelease
+          # ranges like @embedded-postgres/<platform>) that Aliyun may not have
+          # synced yet. Mirror each one so `npm install paperclipai` resolves
+          # them from Aliyun instead of pnpm silently dropping unresolved
+          # optional deps.
+          while IFS=$'\t' read -r dep_name dep_range; do
+            [[ -z "$dep_name" ]] && continue
+            mirror_dependency "$dep_name" "$dep_range"
+          done < <(node -e "
+            const pkg = require('$package_dir/package.json');
+            const deps = { ...pkg.dependencies, ...pkg.optionalDependencies };
+            for (const [name, range] of Object.entries(deps)) {
+              if (name.startsWith('@')) console.log(name + '\t' + range);
+            }
+          ")
 
           current="$(npm view paperclipai@latest version --registry="$NPM_REGISTRY" 2>/dev/null || true)"
           if [[ "$current" == "$version" ]]; then
