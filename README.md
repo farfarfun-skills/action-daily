@@ -23,9 +23,15 @@ it can't resolve on its own. The workflow resolves and mirrors each of these
 from npmjs before publishing, so `npm install`/`pnpm install` don't silently
 skip an unresolved optional dependency.
 
-## Sync organization forks
+## Sync organization forks & mirror to Gitee
 
-`Sync organization forks` runs daily at 00:00 Asia/Shanghai and can also be
-started manually. Add a repository Actions secret named `SYNC_FORKS_TOKEN`
-using a fine-grained PAT with access to all organization repositories and
-`Contents: Read and write` permission.
+`Daily sync` runs hourly and can also be started manually. It updates every
+fork repo (name contains `--`) from its upstream, then mirrors **every**
+repository in the organization — including non-fork ones like `.github` and
+this repo itself — to the `farfarfun-skills` organization on Gitee via
+`Yikun/hub-mirror-action`. Requires these repository Actions secrets:
+
+- `ACTION_GITHUB_TOKEN`: fine-grained PAT with access to all organization
+  repositories and `Contents: Read and write` permission
+- `GITEE_RSA_PRIVATE_KEY` / `GITEE_TOKEN`: credentials for the Gitee mirror
+  destination

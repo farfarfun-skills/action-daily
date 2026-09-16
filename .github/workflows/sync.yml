@@ -24,12 +24,12 @@ jobs:
 
           repos="$RUNNER_TEMP/repos.tsv"
           gh api --paginate "orgs/$ORG/repos?type=all&per_page=100" \
-            --jq '.[] | select(.name | contains("--")) | [.name, .default_branch, .fork] | @tsv' > "$repos"
-          echo "names=$(cut -f1 "$repos" | paste -sd, -)" >> "$GITHUB_OUTPUT"
+            --jq '.[] | [.name, .default_branch, .fork] | @tsv' > "$repos"
+          echo "all_names=$(cut -f1 "$repos" | paste -sd, -)" >> "$GITHUB_OUTPUT"
 
           failed=()
           while IFS=$'\t' read -r repo branch fork; do
-            [[ "$fork" == "true" ]] || continue
+            [[ "$repo" == *--* && "$fork" == "true" ]] || continue
             echo "Syncing $ORG/$repo ($branch)"
             if ! gh repo sync "$ORG/$repo" --branch "$branch"; then
               echo "::warning::Normal sync failed for $repo; retrying with --force"
@@ -42,8 +42,8 @@ jobs:
             exit 1
           }
 
-      - name: Mirror matching Github repositories to Gitee
-        if: always() && steps.repos.outputs.names != ''
+      - name: Mirror all Github repositories to Gitee
+        if: always() && steps.repos.outputs.all_names != ''
         uses: Yikun/hub-mirror-action@master
         with:
           src: github/farfarfun-skills
@@ -52,4 +52,4 @@ jobs:
           dst_token: ${{ secrets.GITEE_TOKEN }}
           force_update: true
           account_type: org
-          static_list: ${{ steps.repos.outputs.names }}
+          static_list: ${{ steps.repos.outputs.all_names }}
