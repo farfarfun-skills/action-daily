@@ -3,7 +3,7 @@ name: Publish Paperclip to Aliyun
 on:
   push:
   schedule:
-    - cron: "0 */6 * * *" # Every 6 hours
+    - cron: "13 */6 * * *" # Every 6 hours, off the :00 mark to avoid GitHub's scheduling congestion
   workflow_dispatch:
 
 concurrency:
