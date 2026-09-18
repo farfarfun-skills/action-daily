@@ -12,44 +12,19 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
-      ORG: ${{ github.repository_owner }}
     steps:
       - name: Sync matching forks with their upstream repositories
         id: repos
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          repos="$RUNNER_TEMP/repos.tsv"
-          gh api --paginate "orgs/$ORG/repos?type=all&per_page=100" \
-            --jq '.[] | [.name, .default_branch, .fork] | @tsv' > "$repos"
-          echo "all_names=$(cut -f1 "$repos" | paste -sd, -)" >> "$GITHUB_OUTPUT"
-
-          failed=()
-          while IFS=$'\t' read -r repo branch fork; do
-            [[ "$repo" == *--* && "$fork" == "true" ]] || continue
-            echo "Syncing $ORG/$repo ($branch)"
-            if ! gh repo sync "$ORG/$repo" --branch "$branch"; then
-              echo "::warning::Normal sync failed for $repo; retrying with --force"
-              gh repo sync "$ORG/$repo" --branch "$branch" --force || failed+=("$repo")
-            fi
-          done < "$repos"
-
-          ((${#failed[@]} == 0)) || {
-            echo "::error::Failed to sync: ${failed[*]}"
-            exit 1
-          }
+        uses: farfarfun-action/sync-forks@v1
+        with:
+          github-token: ${{ secrets.ACTION_GITHUB_TOKEN }}
 
       - name: Mirror all Github repositories to Gitee
-        if: always() && steps.repos.outputs.all_names != ''
-        uses: Yikun/hub-mirror-action@master
+        if: always() && steps.repos.outputs.all-repo-names != ''
+        uses: farfarfun-action/mirror-to-gitee@v1
         with:
-          src: github/farfarfun-skills
-          dst: gitee/farfarfun-skills
-          dst_key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
-          force_update: true
-          account_type: org
-          static_list: ${{ steps.repos.outputs.all_names }}
+          github-org: ${{ github.repository_owner }}
+          gitee-org: farfarfun-skills
+          gitee-key: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+          gitee-token: ${{ secrets.GITEE_TOKEN }}
+          repo-names: ${{ steps.repos.outputs.all-repo-names }}
