@@ -42,8 +42,8 @@
       "src_sha": "2fd153c67988e980fb0b2455c90832159a6a5a25"
     },
     "action-daily": {
-      "dst_sha": "b53c47f0e9db09fc6720773544502ea5511eefda",
-      "src_sha": "b53c47f0e9db09fc6720773544502ea5511eefda"
+      "dst_sha": "fb8531ed3b84d72d4d31f64f3c07ef7f915d0b97",
+      "src_sha": "fb8531ed3b84d72d4d31f64f3c07ef7f915d0b97"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
