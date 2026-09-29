@@ -42,8 +42,8 @@
       "src_sha": "2fd153c67988e980fb0b2455c90832159a6a5a25"
     },
     "action-daily": {
-      "dst_sha": "64e57f361655be9626032c85132e010eaeb2f1cb",
-      "src_sha": "64e57f361655be9626032c85132e010eaeb2f1cb"
+      "dst_sha": "ed5e702844f0d4366b47f34cc8d63d11623eaa7b",
+      "src_sha": "ed5e702844f0d4366b47f34cc8d63d11623eaa7b"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
@@ -54,16 +54,16 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "0ca4f2683f6d720b81d8d5dd3f8be92fab6e38a0",
-      "src_sha": "0ca4f2683f6d720b81d8d5dd3f8be92fab6e38a0"
+      "dst_sha": "6bee3b08dbad99f71eb96b7dd94d883523cc2324",
+      "src_sha": "6bee3b08dbad99f71eb96b7dd94d883523cc2324"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
       "src_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206"
     },
     "anthropics--skills": {
-      "dst_sha": "33375500bcea98d610eb30ce10ac4e59b89c390d",
-      "src_sha": "33375500bcea98d610eb30ce10ac4e59b89c390d"
+      "dst_sha": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+      "src_sha": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4"
     },
     "dietrichgebert--ponytail": {
       "dst_sha": "e3ba2aa6f1e6f0bc4d69eb09c9f0d0a93af56156",
@@ -98,12 +98,12 @@
       "src_sha": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "ea371b9684ee8e5c657e21b41f1c51f086956ab5",
-      "src_sha": "ea371b9684ee8e5c657e21b41f1c51f086956ab5"
+      "dst_sha": "53aad90b9e83dc147707797bf224bec12600b171",
+      "src_sha": "53aad90b9e83dc147707797bf224bec12600b171"
     },
     "tt-a1i--archify": {
-      "dst_sha": "0e4949f910a8e390bd3b4933883a4dcabad571be",
-      "src_sha": "0e4949f910a8e390bd3b4933883a4dcabad571be"
+      "dst_sha": "69cf672087289033af5138648d3875d3d73fc431",
+      "src_sha": "69cf672087289033af5138648d3875d3d73fc431"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
