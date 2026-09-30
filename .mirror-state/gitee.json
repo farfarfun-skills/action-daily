@@ -42,8 +42,8 @@
       "src_sha": "2fd153c67988e980fb0b2455c90832159a6a5a25"
     },
     "action-daily": {
-      "dst_sha": "03d25a2a5d70d42ba51166c41195f55f90546515",
-      "src_sha": "03d25a2a5d70d42ba51166c41195f55f90546515"
+      "dst_sha": "5706003935692566f7af6b58dec429f43aadf148",
+      "src_sha": "5706003935692566f7af6b58dec429f43aadf148"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
@@ -98,12 +98,12 @@
       "src_sha": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "0b12ca9532a006fe3849b1efe0a52bac2f301285",
-      "src_sha": "0b12ca9532a006fe3849b1efe0a52bac2f301285"
+      "dst_sha": "a027f76a726e8a556674eded807c2de0e55f5cc0",
+      "src_sha": "a027f76a726e8a556674eded807c2de0e55f5cc0"
     },
     "tt-a1i--archify": {
-      "dst_sha": "5ca9c1233b82fac6478158cc1ee2d00c42d3ab1b",
-      "src_sha": "5ca9c1233b82fac6478158cc1ee2d00c42d3ab1b"
+      "dst_sha": "60499862351f82c1ec2bb4cbbbc59be417e361b8",
+      "src_sha": "60499862351f82c1ec2bb4cbbbc59be417e361b8"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
