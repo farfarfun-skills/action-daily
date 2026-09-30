@@ -38,12 +38,12 @@
       "src_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "2fd153c67988e980fb0b2455c90832159a6a5a25",
-      "src_sha": "2fd153c67988e980fb0b2455c90832159a6a5a25"
+      "dst_sha": "b33a39554ed06cbc7d7d3198ff90c171e8043b69",
+      "src_sha": "b33a39554ed06cbc7d7d3198ff90c171e8043b69"
     },
     "action-daily": {
-      "dst_sha": "5706003935692566f7af6b58dec429f43aadf148",
-      "src_sha": "5706003935692566f7af6b58dec429f43aadf148"
+      "dst_sha": "1eccdaee087b3c546b1ac5ef13d03b150f1342f8",
+      "src_sha": "1eccdaee087b3c546b1ac5ef13d03b150f1342f8"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
@@ -54,8 +54,8 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "6bee3b08dbad99f71eb96b7dd94d883523cc2324",
-      "src_sha": "6bee3b08dbad99f71eb96b7dd94d883523cc2324"
+      "dst_sha": "091480e9745f8df524be7af6266b82d05cba4330",
+      "src_sha": "091480e9745f8df524be7af6266b82d05cba4330"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -86,8 +86,8 @@
       "src_sha": "160dad8f70d41f620f467b5a4c3eabb439013929"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "dc7ab3209341b2075c495983899b11f6d204e41b",
-      "src_sha": "dc7ab3209341b2075c495983899b11f6d204e41b"
+      "dst_sha": "ebf5f26cd275b1412be8a2c8784c4f8da628e7c2",
+      "src_sha": "ebf5f26cd275b1412be8a2c8784c4f8da628e7c2"
     },
     "jakubkrehel--skills": {
       "dst_sha": "267330e1adfc66a718fb65fa6918c1f06d0a689e",
@@ -98,12 +98,12 @@
       "src_sha": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "a027f76a726e8a556674eded807c2de0e55f5cc0",
-      "src_sha": "a027f76a726e8a556674eded807c2de0e55f5cc0"
+      "dst_sha": "b54b2dc35c1f41d367ff4d94615ebfd38bbbdad0",
+      "src_sha": "b54b2dc35c1f41d367ff4d94615ebfd38bbbdad0"
     },
     "tt-a1i--archify": {
-      "dst_sha": "60499862351f82c1ec2bb4cbbbc59be417e361b8",
-      "src_sha": "60499862351f82c1ec2bb4cbbbc59be417e361b8"
+      "dst_sha": "d5a1333d7447c866a765adac7d4d062f2f02e4d2",
+      "src_sha": "d5a1333d7447c866a765adac7d4d062f2f02e4d2"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
