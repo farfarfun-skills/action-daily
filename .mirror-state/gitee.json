@@ -22,8 +22,8 @@
       "src_sha": "7a0d15a242794a4a23b3d35416b2f0e51d3646f5"
     },
     "Agents365-ai--drawio-skill": {
-      "dst_sha": "7aa92f73819766eb914fffac66762cf2adb5d828",
-      "src_sha": "7aa92f73819766eb914fffac66762cf2adb5d828"
+      "dst_sha": "9d9e19a65f94862fd68d2cb825c49d3bb4f5c8a8",
+      "src_sha": "9d9e19a65f94862fd68d2cb825c49d3bb4f5c8a8"
     },
     "ComposioHQ--awesome-claude-skills": {
       "dst_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
@@ -38,12 +38,12 @@
       "src_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "f5d729488caa8f6a5b6c8086fe2cccd3e8a63f91",
-      "src_sha": "f5d729488caa8f6a5b6c8086fe2cccd3e8a63f91"
+      "dst_sha": "b39c90862855ad2f0813ce775b8bf07a9d6d2a50",
+      "src_sha": "b39c90862855ad2f0813ce775b8bf07a9d6d2a50"
     },
     "action-daily": {
-      "dst_sha": "d6848c5e06fa4780b09eaa6c537753421d2f38be",
-      "src_sha": "d6848c5e06fa4780b09eaa6c537753421d2f38be"
+      "dst_sha": "30a164f3b1d9bce61547b5ef07aa216785667f9c",
+      "src_sha": "30a164f3b1d9bce61547b5ef07aa216785667f9c"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
@@ -98,8 +98,8 @@
       "src_sha": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "0d3e7bf6ac69c6a41995e62e7a38ca99dcbc8dfd",
-      "src_sha": "0d3e7bf6ac69c6a41995e62e7a38ca99dcbc8dfd"
+      "dst_sha": "2a36e915ef98dbdfd325c8b9a72d748cb9f36495",
+      "src_sha": "2a36e915ef98dbdfd325c8b9a72d748cb9f36495"
     },
     "tt-a1i--archify": {
       "dst_sha": "d5a1333d7447c866a765adac7d4d062f2f02e4d2",
