@@ -42,8 +42,8 @@
       "src_sha": "f5d729488caa8f6a5b6c8086fe2cccd3e8a63f91"
     },
     "action-daily": {
-      "dst_sha": "69ad08ef4f8521bc086c3f8e7d1606b94da3c4b1",
-      "src_sha": "69ad08ef4f8521bc086c3f8e7d1606b94da3c4b1"
+      "dst_sha": "d6848c5e06fa4780b09eaa6c537753421d2f38be",
+      "src_sha": "d6848c5e06fa4780b09eaa6c537753421d2f38be"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "2686b620fc1fed2e8f60c704839c766b8594c6b6",
@@ -54,8 +54,8 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "091480e9745f8df524be7af6266b82d05cba4330",
-      "src_sha": "091480e9745f8df524be7af6266b82d05cba4330"
+      "dst_sha": "7fd9e028dbfc7c01654071746db0e8205f6963a1",
+      "src_sha": "7fd9e028dbfc7c01654071746db0e8205f6963a1"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
