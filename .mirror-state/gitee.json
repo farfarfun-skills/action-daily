@@ -38,12 +38,12 @@
       "src_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "b39c90862855ad2f0813ce775b8bf07a9d6d2a50",
-      "src_sha": "b39c90862855ad2f0813ce775b8bf07a9d6d2a50"
+      "dst_sha": "17f574b51221b293c16c8e532bc3bf3fa9f4051c",
+      "src_sha": "17f574b51221b293c16c8e532bc3bf3fa9f4051c"
     },
     "action-daily": {
-      "dst_sha": "4168e17740be93632edc0fde59fbc6d4f2729097",
-      "src_sha": "4168e17740be93632edc0fde59fbc6d4f2729097"
+      "dst_sha": "4223339c17e397d6503e33c1cd3691a5cdd4f245",
+      "src_sha": "4223339c17e397d6503e33c1cd3691a5cdd4f245"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "9d0c60d406b454a78ccc0a175b19932047aa4dac",
@@ -66,12 +66,12 @@
       "src_sha": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4"
     },
     "dietrichgebert--ponytail": {
-      "dst_sha": "dd12b12e738ebc0e1fbbf31c4b26dddbf3ce67fb",
-      "src_sha": "dd12b12e738ebc0e1fbbf31c4b26dddbf3ce67fb"
+      "dst_sha": "c982cd411abb53323c4baa1baa3c2f020b8d0b08",
+      "src_sha": "c982cd411abb53323c4baa1baa3c2f020b8d0b08"
     },
     "farfarfun-skill--lang-spec-hub": {
-      "dst_sha": "8424b3be342ae3f7b41233009c326c96b233aa9d",
-      "src_sha": "8424b3be342ae3f7b41233009c326c96b233aa9d"
+      "dst_sha": "8b36cb5ab6509e8a725e5f275e02228a52663c8d",
+      "src_sha": "8b36cb5ab6509e8a725e5f275e02228a52663c8d"
     },
     "farfarfun-skill--paperclip-governance": {
       "dst_sha": "ef7a2201590599fb6a61ba05554f24495a8cc4bb",
@@ -98,8 +98,8 @@
       "src_sha": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "59c07ede72dc08b8aba149a01cc11e0b7a204621",
-      "src_sha": "59c07ede72dc08b8aba149a01cc11e0b7a204621"
+      "dst_sha": "9ae3d8db3dc930f316f29e6e83fe6c325ac8bc06",
+      "src_sha": "9ae3d8db3dc930f316f29e6e83fe6c325ac8bc06"
     },
     "tt-a1i--archify": {
       "dst_sha": "d5a1333d7447c866a765adac7d4d062f2f02e4d2",
