@@ -42,8 +42,8 @@
       "src_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002"
     },
     "action-daily": {
-      "dst_sha": "1007af6c75235541b16123e326ac243752f83027",
-      "src_sha": "1007af6c75235541b16123e326ac243752f83027"
+      "dst_sha": "05773582722948f48ffcabf648f94d431edd0b6a",
+      "src_sha": "05773582722948f48ffcabf648f94d431edd0b6a"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "1401c8b8030e023baeebb31781a6653fe8e93026",
@@ -98,20 +98,20 @@
       "src_sha": "b0618bc436ad893b3c5e84e55fba86586d34a404"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "75918997a87ac3ae9ab6cf540cf4879b44eb22dc",
-      "src_sha": "75918997a87ac3ae9ab6cf540cf4879b44eb22dc"
+      "dst_sha": "4265cb3a2b8056bed0e2583ac7b88aa706f1622f",
+      "src_sha": "4265cb3a2b8056bed0e2583ac7b88aa706f1622f"
     },
     "tt-a1i--archify": {
-      "dst_sha": "0efb22b2167e3b1295d778d1cfa33e944d2b7a18",
-      "src_sha": "0efb22b2167e3b1295d778d1cfa33e944d2b7a18"
+      "dst_sha": "bb990b17b886e83d633e273221615eb259a92c78",
+      "src_sha": "bb990b17b886e83d633e273221615eb259a92c78"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
       "src_sha": "063bee94c3f4df8453406c830b0a7df0f2860278"
     },
     "vercel-labs--skills": {
-      "dst_sha": "87a266971d9460a3d2606075b8e91edc83325472",
-      "src_sha": "87a266971d9460a3d2606075b8e91edc83325472"
+      "dst_sha": "05bf93879366fa21c5a4df7482a96adf13beabd2",
+      "src_sha": "05bf93879366fa21c5a4df7482a96adf13beabd2"
     },
     "wshobson--agents": {
       "dst_sha": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
