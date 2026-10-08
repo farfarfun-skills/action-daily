@@ -1,19 +1,12 @@
-name: Disable org actions
+name: Disable org workflows
 
 on:
   schedule:
-    - cron: "23 21 * * *"   # 05:23 Asia/Shanghai -- after the daily full sync, so newly created/forked repos get disabled too
+    - cron: "23 21 * * *"   # 05:23 Asia/Shanghai -- after the daily full sync, so workflows pulled in by a fresh fork get disabled too
   workflow_dispatch:
     inputs:
-      scope:
-        description: 'repo = switch Actions off for the whole repository; workflows = disable each workflow individually'
-        type: choice
-        options:
-          - repo
-          - workflows
-        default: repo
       keep:
-        description: 'Extra comma-separated repo names to leave enabled (this repo is always kept)'
+        description: 'Extra comma-separated repo names to leave untouched (this repo is always kept)'
         type: string
         default: ''
       dry-run:
@@ -24,22 +17,20 @@ on:
 permissions: {}
 
 concurrency:
-  group: disable-org-actions
+  group: disable-org-workflows
   cancel-in-progress: false
 
 jobs:
   disable:
     runs-on: ubuntu-latest
     env:
-      # Needs org-wide repo access plus, for scope=repo, "Administration:
-      # Read and write" and, for scope=workflows, "Actions: Read and write".
+      # Needs org-wide repo access plus "Actions: Read and write".
       GH_TOKEN: ${{ secrets.ACTION_GITHUB_TOKEN }}
       ORG: ${{ github.repository_owner }}
-      SCOPE: ${{ inputs.scope || 'repo' }}
       KEEP: ${{ inputs.keep }}
       DRY_RUN: ${{ inputs.dry-run || false }}
     steps:
-      - name: Disable Actions on every repository except this one
+      - name: Disable every workflow outside this repository
         run: |
           set -uo pipefail
 
@@ -53,7 +44,7 @@ jobs:
             [[ -n "$name" ]] && keep+="$name"$'\n'
           done
 
-          # Archived repos reject writes, and their Actions are already inert.
+          # Archived repos reject writes, and their workflows never run.
           mapfile -t repos < <(gh api --paginate \
             "/orgs/$ORG/repos?per_page=100&type=all" \
             --jq '.[] | select(.archived | not) | .name' | sort)
@@ -65,43 +56,26 @@ jobs:
           disabled=0 already=0 kept=0 failed=0
           summary=$(mktemp)
 
-          # Both paths read the current state first and only write to repos
-          # that are still enabled, so re-runs are no-ops.
-          disable_repo() {
-            local repo="$1" state
-            state=$(gh api "/repos/$ORG/$repo/actions/permissions" --jq '.enabled' 2>/dev/null) || state=''
-            if [[ "$state" == "false" ]]; then
-              echo "  already disabled"
-              already=$(( already + 1 ))
-              return 0
+          for repo in "${repos[@]}"; do
+            if [[ "$keep" == *$'\n'"$repo"$'\n'* ]]; then
+              echo "$repo: kept"
+              kept=$(( kept + 1 ))
+              continue
             fi
-            if [[ "$DRY_RUN" == "true" ]]; then
-              echo "  would disable Actions"
-              disabled=$(( disabled + 1 ))
-              return 0
-            fi
-            # `allowed_actions` must be omitted when enabled=false.
-            if gh api -X PUT "/repos/$ORG/$repo/actions/permissions" -F enabled=false; then
-              echo "  disabled Actions"
-              disabled=$(( disabled + 1 ))
-            else
-              echo "::warning::failed to disable Actions for $repo"
-              echo "- \`$repo\`: repository-level disable failed" >> "$summary"
-              failed=$(( failed + 1 ))
-            fi
-          }
+            echo "$repo:"
 
-          disable_workflows() {
-            local repo="$1" line id path
-            local -a active
+            # Only "active" workflows need a write -- anything already in
+            # disabled_manually / disabled_inactivity / disabled_fork is left
+            # alone, which makes re-runs no-ops.
             mapfile -t active < <(gh api --paginate \
               "/repos/$ORG/$repo/actions/workflows?per_page=100" \
               --jq '.workflows[] | select(.state == "active") | "\(.id)\t\(.path)"' 2>/dev/null)
             if [[ ${#active[@]} -eq 0 ]]; then
               echo "  nothing active"
               already=$(( already + 1 ))
-              return 0
+              continue
             fi
+
             for line in "${active[@]}"; do
               id="${line%%$'\t'*}"
               path="${line#*$'\t'}"
@@ -119,28 +93,14 @@ jobs:
                 failed=$(( failed + 1 ))
               fi
             done
-          }
-
-          for repo in "${repos[@]}"; do
-            if [[ "$keep" == *$'\n'"$repo"$'\n'* ]]; then
-              echo "$repo: kept"
-              kept=$(( kept + 1 ))
-              continue
-            fi
-            echo "$repo:"
-            if [[ "$SCOPE" == "workflows" ]]; then
-              disable_workflows "$repo"
-            else
-              disable_repo "$repo"
-            fi
           done
 
           {
-            echo "## Disable org actions"
+            echo "## Disable org workflows"
             echo
-            echo "Org \`$ORG\`, scope \`$SCOPE\`$([[ "$DRY_RUN" == "true" ]] && echo ' (dry run)')."
+            echo "Org \`$ORG\`$([[ "$DRY_RUN" == "true" ]] && echo ' (dry run)')."
             echo
-            echo "| repos scanned | disabled | already off | kept | failed |"
+            echo "| repos scanned | workflows disabled | repos already clean | repos kept | failures |"
             echo "| --- | --- | --- | --- | --- |"
             echo "| ${#repos[@]} | $disabled | $already | $kept | $failed |"
             if [[ -s "$summary" ]]; then
