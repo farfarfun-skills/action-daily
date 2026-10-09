@@ -42,8 +42,8 @@
       "src_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002"
     },
     "action-daily": {
-      "dst_sha": "e2df1408c1ae4244763cb6eb772d55dd637f9f1c",
-      "src_sha": "e2df1408c1ae4244763cb6eb772d55dd637f9f1c"
+      "dst_sha": "226a74d6d403773eb6b92cbbac623eab5d50f24a",
+      "src_sha": "226a74d6d403773eb6b92cbbac623eab5d50f24a"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "1401c8b8030e023baeebb31781a6653fe8e93026",
@@ -54,8 +54,8 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "f7be2c8620d3b751499d42439fc4915bc94be68b",
-      "src_sha": "f7be2c8620d3b751499d42439fc4915bc94be68b"
+      "dst_sha": "db1e1926dac9d71c5cd59dc31a01e644f3a23310",
+      "src_sha": "db1e1926dac9d71c5cd59dc31a01e644f3a23310"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -110,8 +110,8 @@
       "src_sha": "063bee94c3f4df8453406c830b0a7df0f2860278"
     },
     "vercel-labs--skills": {
-      "dst_sha": "05bf93879366fa21c5a4df7482a96adf13beabd2",
-      "src_sha": "05bf93879366fa21c5a4df7482a96adf13beabd2"
+      "dst_sha": "e878c4502674f84094dc27b5ad94ddaf64f22551",
+      "src_sha": "e878c4502674f84094dc27b5ad94ddaf64f22551"
     },
     "wshobson--agents": {
       "dst_sha": "46891e7e60da0e52baf1050b7b6391b64e84c6d9",
