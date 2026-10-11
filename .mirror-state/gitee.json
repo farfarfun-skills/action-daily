@@ -42,8 +42,8 @@
       "src_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002"
     },
     "action-daily": {
-      "dst_sha": "29c8a4441d25b53d60002804164b12d3163cc5e7",
-      "src_sha": "29c8a4441d25b53d60002804164b12d3163cc5e7"
+      "dst_sha": "555b8bac043aeae3b3afc6502c9abbd3ac6567fd",
+      "src_sha": "555b8bac043aeae3b3afc6502c9abbd3ac6567fd"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
@@ -90,16 +90,16 @@
       "src_sha": "71409d571283b6e6a5f59acb65c0957a19c8e7e4"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "d574cc8a576dc24256ad38268b8d03d86724a1b3",
-      "src_sha": "d574cc8a576dc24256ad38268b8d03d86724a1b3"
+      "dst_sha": "c0588bb6d654eb725046f0bf9deec338c34891ab",
+      "src_sha": "c0588bb6d654eb725046f0bf9deec338c34891ab"
     },
     "mattpocock--skills": {
       "dst_sha": "49dd158d1076134a641b33efb035946536778336",
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "4f680bc85c824940f4a71ea37074f3de8efba24e",
-      "src_sha": "4f680bc85c824940f4a71ea37074f3de8efba24e"
+      "dst_sha": "07f3536e37687a42def210ecffb598f3e58813b4",
+      "src_sha": "07f3536e37687a42def210ecffb598f3e58813b4"
     },
     "tt-a1i--archify": {
       "dst_sha": "58ab0b98d2d0def8e49dced705c7b566936723ec",
