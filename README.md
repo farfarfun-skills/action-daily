@@ -1,4 +1,8 @@
-# daily-action
+# action-daily
+
+Organization-level automation for [farfarfun-skills](https://github.com/farfarfun-skills):
+keeps every fork in sync with its upstream, mirrors the whole organization to
+Gitee, and keeps the forks' inherited workflows switched off.
 
 ## Sync organization forks & mirror to Gitee
 
