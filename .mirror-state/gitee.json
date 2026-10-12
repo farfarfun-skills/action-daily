@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "67e5cac12dae150c9a34366d7d7bb387929cca79",
-      "src_sha": "67e5cac12dae150c9a34366d7d7bb387929cca79"
+      "dst_sha": "77c850b82cee66930972cc9460f71c040d9ebc1d",
+      "src_sha": "77c850b82cee66930972cc9460f71c040d9ebc1d"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
@@ -42,8 +42,8 @@
       "src_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002"
     },
     "action-daily": {
-      "dst_sha": "fa3d2616af49281413ddf8e2efd019972be00642",
-      "src_sha": "fa3d2616af49281413ddf8e2efd019972be00642"
+      "dst_sha": "e0a7eff10800c2fdcc4f8e4e7560e2655a266b86",
+      "src_sha": "e0a7eff10800c2fdcc4f8e4e7560e2655a266b86"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
@@ -98,8 +98,8 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "e733bddc45e00efb1819fffa8677f7b0d07802c5",
-      "src_sha": "e733bddc45e00efb1819fffa8677f7b0d07802c5"
+      "dst_sha": "bfe7c6357d1e0c945c8cb84259153cb3b6542d28",
+      "src_sha": "bfe7c6357d1e0c945c8cb84259153cb3b6542d28"
     },
     "tt-a1i--archify": {
       "dst_sha": "58ab0b98d2d0def8e49dced705c7b566936723ec",
