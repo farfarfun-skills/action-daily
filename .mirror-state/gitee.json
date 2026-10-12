@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "77c850b82cee66930972cc9460f71c040d9ebc1d",
-      "src_sha": "77c850b82cee66930972cc9460f71c040d9ebc1d"
+      "dst_sha": "281bb237b3a2c8833e0f66c13a94180a680f9a94",
+      "src_sha": "281bb237b3a2c8833e0f66c13a94180a680f9a94"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
@@ -42,8 +42,8 @@
       "src_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002"
     },
     "action-daily": {
-      "dst_sha": "766b15ee1949f8cba59c4ef46f1e021b7009c19e",
-      "src_sha": "766b15ee1949f8cba59c4ef46f1e021b7009c19e"
+      "dst_sha": "c2aee4812e878429466a431ec54b4ee0de714285",
+      "src_sha": "c2aee4812e878429466a431ec54b4ee0de714285"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "1be8e34187e34647bb83adc3a1323b26ae6f6abe",
@@ -54,8 +54,8 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "a936c8932f2324b5036d9d167617ff83a5fb40b8",
-      "src_sha": "a936c8932f2324b5036d9d167617ff83a5fb40b8"
+      "dst_sha": "650a2e0f2ec7a73ddc393e0a6da713b95caeaacc",
+      "src_sha": "650a2e0f2ec7a73ddc393e0a6da713b95caeaacc"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -86,8 +86,8 @@
       "src_sha": "160dad8f70d41f620f467b5a4c3eabb439013929"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "d036a68c7a0785ae753f3b6d02dec515a419cf42",
-      "src_sha": "d036a68c7a0785ae753f3b6d02dec515a419cf42"
+      "dst_sha": "f2264c30213a8a55bd0a6a7668d0438e4564e090",
+      "src_sha": "f2264c30213a8a55bd0a6a7668d0438e4564e090"
     },
     "jakubkrehel--skills": {
       "dst_sha": "c0588bb6d654eb725046f0bf9deec338c34891ab",
@@ -98,8 +98,8 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "1b4c803816e82b0265c8422e1a804327a7ed8c54",
-      "src_sha": "1b4c803816e82b0265c8422e1a804327a7ed8c54"
+      "dst_sha": "2145925f71a206ccf2963636e1326a377e5747ca",
+      "src_sha": "2145925f71a206ccf2963636e1326a377e5747ca"
     },
     "tt-a1i--archify": {
       "dst_sha": "58ab0b98d2d0def8e49dced705c7b566936723ec",
