@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "281bb237b3a2c8833e0f66c13a94180a680f9a94",
-      "src_sha": "281bb237b3a2c8833e0f66c13a94180a680f9a94"
+      "dst_sha": "121247d34d9c104feca21e3c58f3c07f57ecb3db",
+      "src_sha": "121247d34d9c104feca21e3c58f3c07f57ecb3db"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
@@ -78,8 +78,8 @@
       "src_sha": "ef7a2201590599fb6a61ba05554f24495a8cc4bb"
     },
     "farfarfun-skill--project-manager": {
-      "dst_sha": "10b6e9e9bb800f513d86d019333b92b4d2bb6349",
-      "src_sha": "10b6e9e9bb800f513d86d019333b92b4d2bb6349"
+      "dst_sha": "d9a9e3dd0caf4451a498b3eba7e82ae4a6f735c5",
+      "src_sha": "d9a9e3dd0caf4451a498b3eba7e82ae4a6f735c5"
     },
     "farfarfun-skill--service-governance": {
       "dst_sha": "160dad8f70d41f620f467b5a4c3eabb439013929",
