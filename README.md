@@ -4,6 +4,28 @@ Organization-level automation for [farfarfun-skills](https://github.com/farfarfu
 keeps every fork in sync with its upstream, mirrors the whole organization to
 Gitee, and keeps the forks' inherited workflows switched off.
 
+## Usage
+
+There is nothing to install: both workflows live in this repository and run on
+their own schedules as soon as the [secrets](#secrets) below are configured. To
+start a run by hand, use [`gh`](https://cli.github.com/) with push access to
+this repository:
+
+```bash
+# Force a full mirror now instead of waiting for the daily full sync
+gh workflow run sync.yml --repo farfarfun-skills/action-daily -f full=true
+
+# Report which workflows would be disabled, without changing anything
+gh workflow run disable-actions.yml --repo farfarfun-skills/action-daily -f dry-run=true
+
+# Follow the result
+gh run list --repo farfarfun-skills/action-daily --limit 5
+```
+
+Drop `-f dry-run=true` to actually disable the workflows, and add
+`-f keep=repo-a,repo-b` to spare extra repositories. Each run writes a
+scanned/disabled/skipped/failed table to its job summary.
+
 ## Sync organization forks & mirror to Gitee
 
 `Daily sync` runs hourly (and can also be started manually or is triggered
