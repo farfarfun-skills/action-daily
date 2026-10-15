@@ -78,3 +78,16 @@ Requires these repository Actions secrets:
   workflows` additionally needs `Actions: Read and write`.
 - `GITEE_RSA_PRIVATE_KEY` / `GITEE_TOKEN`: credentials for the Gitee mirror
   destination
+
+---
+
+## 关于 farfarfun-skills
+
+[farfarfun](https://github.com/farfarfun) 面向 Codex、Claude Code 等编码 Agent 的 Skills
+聚合镜像组织：汇集社区热门 Skill 与 farfarfun 自研 Skill，每小时与上游同步并整体镜像至 Gitee。
+自研 Skill 的源头在 [farfarfun-skill](https://github.com/farfarfun-skill)。
+
+- 🏠 组织主页：<https://github.com/farfarfun-skills>
+- 📧 联系：farfarfun@qq.com
+
+本项目基于 [MIT](LICENSE) 协议开源。
