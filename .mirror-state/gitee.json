@@ -42,8 +42,8 @@
       "src_sha": "d262ab3882952a59312ff3537cd86d894523c5ab"
     },
     "action-daily": {
-      "dst_sha": "d7c385b1fec51cbd3b2a6952cefc385ac91e2ae4",
-      "src_sha": "d7c385b1fec51cbd3b2a6952cefc385ac91e2ae4"
+      "dst_sha": "c57a0334a4df22422eca84ff03cbf2dccb0d057a",
+      "src_sha": "c57a0334a4df22422eca84ff03cbf2dccb0d057a"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -78,8 +78,8 @@
       "src_sha": "7ad30d777572daf87111d733bd3c7117d36b22e4"
     },
     "farfarfun-skill--project-manager": {
-      "dst_sha": "ad06cc3c5a3927fd088f22feb13a96aeaaa1278d",
-      "src_sha": "ad06cc3c5a3927fd088f22feb13a96aeaaa1278d"
+      "dst_sha": "c58535462a3296baba2c60152a7d2a6fb573eb0e",
+      "src_sha": "c58535462a3296baba2c60152a7d2a6fb573eb0e"
     },
     "farfarfun-skill--service-governance": {
       "dst_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7",
@@ -98,8 +98,8 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "fd057f6ac4e9148bb4055883ae1d0e7f49242692",
-      "src_sha": "fd057f6ac4e9148bb4055883ae1d0e7f49242692"
+      "dst_sha": "cd77c1c4dc127e64134c2bc1f06567d44a720ddf",
+      "src_sha": "cd77c1c4dc127e64134c2bc1f06567d44a720ddf"
     },
     "tt-a1i--archify": {
       "dst_sha": "d0c8c7e9f4e06f303389f804208d387f27019ef5",
