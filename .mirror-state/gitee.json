@@ -42,8 +42,8 @@
       "src_sha": "d262ab3882952a59312ff3537cd86d894523c5ab"
     },
     "action-daily": {
-      "dst_sha": "b199780cbe0898e929bae6d0e839b0606d2edf88",
-      "src_sha": "b199780cbe0898e929bae6d0e839b0606d2edf88"
+      "dst_sha": "2e871a43d075c761aa6c99266905de827726d1eb",
+      "src_sha": "2e871a43d075c761aa6c99266905de827726d1eb"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -66,8 +66,8 @@
       "src_sha": "dbd4588f9e1033efb41dad4bef2f7947c8993d44"
     },
     "dietrichgebert--ponytail": {
-      "dst_sha": "84740e3d344b69b4a133201fa519eb37a62a2b2a",
-      "src_sha": "84740e3d344b69b4a133201fa519eb37a62a2b2a"
+      "dst_sha": "f329330e6104f7ab771fb0ba9612011f401d73cc",
+      "src_sha": "f329330e6104f7ab771fb0ba9612011f401d73cc"
     },
     "farfarfun-skill--lang-spec-hub": {
       "dst_sha": "3c63c0be07c2dcc4b992ab4c0efdd822bf394d27",
@@ -86,8 +86,8 @@
       "src_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "fdd6c09dd866354a627ddf3fa46b7b01d421176d",
-      "src_sha": "fdd6c09dd866354a627ddf3fa46b7b01d421176d"
+      "dst_sha": "3434a7633027ec6dccfa80ed1eb5716befd4e766",
+      "src_sha": "3434a7633027ec6dccfa80ed1eb5716befd4e766"
     },
     "jakubkrehel--skills": {
       "dst_sha": "4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
@@ -98,12 +98,12 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "78b833c4958465b5e345b0e337018011b00dab72",
-      "src_sha": "78b833c4958465b5e345b0e337018011b00dab72"
+      "dst_sha": "d75b3fc33f781f9b0e85458ffdbbb762f5960d00",
+      "src_sha": "d75b3fc33f781f9b0e85458ffdbbb762f5960d00"
     },
     "tt-a1i--archify": {
-      "dst_sha": "04dc1916e1651086564f16076eab6d2f6ba1ae42",
-      "src_sha": "04dc1916e1651086564f16076eab6d2f6ba1ae42"
+      "dst_sha": "10a601f756ca4d2fb8083b63c0cb780e092b4c2e",
+      "src_sha": "10a601f756ca4d2fb8083b63c0cb780e092b4c2e"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
