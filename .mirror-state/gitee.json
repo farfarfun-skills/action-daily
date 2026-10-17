@@ -86,8 +86,8 @@
       "src_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "705d082e60621d371f6de163c7243d23cfdc8def",
-      "src_sha": "705d082e60621d371f6de163c7243d23cfdc8def"
+      "dst_sha": "747a47fdb6b405e5cbf268f7c410123930455157",
+      "src_sha": "747a47fdb6b405e5cbf268f7c410123930455157"
     },
     "jakubkrehel--skills": {
       "dst_sha": "4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
@@ -98,12 +98,12 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "2723168083ad9a460f35199357d5d4c5d53f02d6",
-      "src_sha": "2723168083ad9a460f35199357d5d4c5d53f02d6"
+      "dst_sha": "4415665d67b16ffefbe4519c4bdd521f37bb87b9",
+      "src_sha": "4415665d67b16ffefbe4519c4bdd521f37bb87b9"
     },
     "tt-a1i--archify": {
-      "dst_sha": "88d1ae4498b6a1df610badf690c5406882622d15",
-      "src_sha": "88d1ae4498b6a1df610badf690c5406882622d15"
+      "dst_sha": "b3d168e17a60db4bd84345700d686abac9f9435c",
+      "src_sha": "b3d168e17a60db4bd84345700d686abac9f9435c"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
