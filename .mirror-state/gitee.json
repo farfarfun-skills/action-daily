@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "121247d34d9c104feca21e3c58f3c07f57ecb3db",
-      "src_sha": "121247d34d9c104feca21e3c58f3c07f57ecb3db"
+      "dst_sha": "255ae53ddaeca1984f2e17cb6a5cec083e3ead3c",
+      "src_sha": "255ae53ddaeca1984f2e17cb6a5cec083e3ead3c"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
@@ -42,8 +42,8 @@
       "src_sha": "bad48a0e1df55e05e3f52249afa35ecc1909ee76"
     },
     "action-daily": {
-      "dst_sha": "3856c8bdb9b7df679ad8ee433c47c3d553da60ee",
-      "src_sha": "3856c8bdb9b7df679ad8ee433c47c3d553da60ee"
+      "dst_sha": "b743956556d59dca49ab104873ab6a90890a5233",
+      "src_sha": "b743956556d59dca49ab104873ab6a90890a5233"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -54,8 +54,8 @@
       "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
     },
     "anbeime--skill": {
-      "dst_sha": "fba048ab07ce3b1892cfbd63493f7358cb612030",
-      "src_sha": "fba048ab07ce3b1892cfbd63493f7358cb612030"
+      "dst_sha": "554c36b3ba6a9dc7379c6398cdd20910fbb1447b",
+      "src_sha": "554c36b3ba6a9dc7379c6398cdd20910fbb1447b"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -98,12 +98,12 @@
       "src_sha": "49dd158d1076134a641b33efb035946536778336"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "2f6ad2226aec330251438c47cbc45fd92e0d3132",
-      "src_sha": "2f6ad2226aec330251438c47cbc45fd92e0d3132"
+      "dst_sha": "f96a1e64069f7767cbaaabba7dd56139c70c8651",
+      "src_sha": "f96a1e64069f7767cbaaabba7dd56139c70c8651"
     },
     "tt-a1i--archify": {
-      "dst_sha": "654da74e084e5a1faf708779c23d6172766be9c1",
-      "src_sha": "654da74e084e5a1faf708779c23d6172766be9c1"
+      "dst_sha": "ba701d20a55ed6f139484d9ead7ff45671fe40eb",
+      "src_sha": "ba701d20a55ed6f139484d9ead7ff45671fe40eb"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
