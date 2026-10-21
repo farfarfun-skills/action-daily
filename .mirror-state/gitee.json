@@ -42,20 +42,20 @@
       "src_sha": "bad48a0e1df55e05e3f52249afa35ecc1909ee76"
     },
     "action-daily": {
-      "dst_sha": "29a5eaf5f04efbbe549f029116a681d9f64eb5e6",
-      "src_sha": "29a5eaf5f04efbbe549f029116a681d9f64eb5e6"
+      "dst_sha": "f929f13b80865cf736e46602c3e9d590a87c5422",
+      "src_sha": "f929f13b80865cf736e46602c3e9d590a87c5422"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
       "src_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d"
     },
     "alirezarezvani--claude-skills": {
-      "dst_sha": "19392f7a08264ed00486a251f5b2098321771f94",
-      "src_sha": "19392f7a08264ed00486a251f5b2098321771f94"
+      "dst_sha": "405384d46b3cffe0612a9b4a3849d960f43924a8",
+      "src_sha": "405384d46b3cffe0612a9b4a3849d960f43924a8"
     },
     "anbeime--skill": {
-      "dst_sha": "05a52a180ec9574ecf4144ccb6660cf02c0c6d7e",
-      "src_sha": "05a52a180ec9574ecf4144ccb6660cf02c0c6d7e"
+      "dst_sha": "6992227ebebe0be360970d330e172de6e7b81776",
+      "src_sha": "6992227ebebe0be360970d330e172de6e7b81776"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -98,8 +98,8 @@
       "src_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "65f59e339a9fb6e0635bcbd8c36791bd610326a6",
-      "src_sha": "65f59e339a9fb6e0635bcbd8c36791bd610326a6"
+      "dst_sha": "8b873e01121a80e563a8a02bf6a3219783de5476",
+      "src_sha": "8b873e01121a80e563a8a02bf6a3219783de5476"
     },
     "tt-a1i--archify": {
       "dst_sha": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
@@ -118,8 +118,8 @@
       "src_sha": "0874a27b17a22e2b7c2e2bcd725768e0803cad06"
     },
     "yizhiyanhua-ai--fireworks-tech-graph": {
-      "dst_sha": "31fea364eda5f1852b1175f3d9e29ea31d22dcb4",
-      "src_sha": "31fea364eda5f1852b1175f3d9e29ea31d22dcb4"
+      "dst_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
+      "src_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f"
     }
   },
   "ibelick--ui-skills": "d07392a5db35940e0aa1cae637585ecd550c924f",
