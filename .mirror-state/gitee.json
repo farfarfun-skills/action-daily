@@ -30,20 +30,20 @@
       "src_sha": "be2a406907dbc61b73e6827ded415c96139d13a2"
     },
     "ConardLi--garden-skills": {
-      "dst_sha": "7a6d5a72e4f44bb4cc0c23c01b3d97205c723b68",
-      "src_sha": "7a6d5a72e4f44bb4cc0c23c01b3d97205c723b68"
+      "dst_sha": "ce64df677d4c55a3d1d86805147ff973cd11803f",
+      "src_sha": "ce64df677d4c55a3d1d86805147ff973cd11803f"
     },
     "JimLiu--baoyu-skills": {
       "dst_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3",
       "src_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "b4531dfc05a3ef0ba93b57e8bfa5f48564a4b4d6",
-      "src_sha": "b4531dfc05a3ef0ba93b57e8bfa5f48564a4b4d6"
+      "dst_sha": "bae9beaf3aa6dc509f05f3d3ed239c827f6e51bb",
+      "src_sha": "bae9beaf3aa6dc509f05f3d3ed239c827f6e51bb"
     },
     "action-daily": {
-      "dst_sha": "dfc9d9cf0115a43857ec38a6ff056d92d627873d",
-      "src_sha": "dfc9d9cf0115a43857ec38a6ff056d92d627873d"
+      "dst_sha": "0f0a842adf8fb55aaef6d918509b04e4b8fe8ee4",
+      "src_sha": "0f0a842adf8fb55aaef6d918509b04e4b8fe8ee4"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -90,16 +90,16 @@
       "src_sha": "55363c305097d4c84487bd5f323d29b3f067bf72"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63",
-      "src_sha": "4c66b1fa86e9ab70187b43d7da9b6fdb29f2ef63"
+      "dst_sha": "019ab7c199154f4509b55f12d84a4f5b578dc606",
+      "src_sha": "019ab7c199154f4509b55f12d84a4f5b578dc606"
     },
     "mattpocock--skills": {
       "dst_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
       "src_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "100477e8876f51add368554643e073a2d1c1becf",
-      "src_sha": "100477e8876f51add368554643e073a2d1c1becf"
+      "dst_sha": "ee29e2850d0edc6cf11be9a8166a7829bce9c311",
+      "src_sha": "ee29e2850d0edc6cf11be9a8166a7829bce9c311"
     },
     "tt-a1i--archify": {
       "dst_sha": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
