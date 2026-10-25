@@ -42,8 +42,8 @@
       "src_sha": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
     },
     "action-daily": {
-      "dst_sha": "7b2bac2a514424d2128685627b94ec27bbd15921",
-      "src_sha": "7b2bac2a514424d2128685627b94ec27bbd15921"
+      "dst_sha": "ece5f4e78f19e5735e5435e33ce9abcc8c3ea455",
+      "src_sha": "ece5f4e78f19e5735e5435e33ce9abcc8c3ea455"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -98,8 +98,8 @@
       "src_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "2a45fd95df352b1e9d20ab366181bc715a06fe35",
-      "src_sha": "2a45fd95df352b1e9d20ab366181bc715a06fe35"
+      "dst_sha": "f9581e533e899ce6c67ad7b74ee1f38321a348e5",
+      "src_sha": "f9581e533e899ce6c67ad7b74ee1f38321a348e5"
     },
     "tt-a1i--archify": {
       "dst_sha": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
