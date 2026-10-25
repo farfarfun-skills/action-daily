@@ -38,12 +38,12 @@
       "src_sha": "1567581c26ec29f4216c6e6835415bf30343b0e3"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "1f951fb4ad40ba63302c6e7f987147e034d599d9",
-      "src_sha": "1f951fb4ad40ba63302c6e7f987147e034d599d9"
+      "dst_sha": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4",
+      "src_sha": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
     },
     "action-daily": {
-      "dst_sha": "3fca2d815c57a227b0a472c03515bc2548098514",
-      "src_sha": "3fca2d815c57a227b0a472c03515bc2548098514"
+      "dst_sha": "7b812de80cb14e3a93dfa4228d79fbf56270064b",
+      "src_sha": "7b812de80cb14e3a93dfa4228d79fbf56270064b"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -54,8 +54,8 @@
       "src_sha": "6d2f02ea077eead1bee5411a31bcc6db5a11a70c"
     },
     "anbeime--skill": {
-      "dst_sha": "3b65b58a7abd590d4e8b95d1761971be16079a3a",
-      "src_sha": "3b65b58a7abd590d4e8b95d1761971be16079a3a"
+      "dst_sha": "381a90bfa76dd6f3ea477f2cea8d8268b216bc12",
+      "src_sha": "381a90bfa76dd6f3ea477f2cea8d8268b216bc12"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -86,24 +86,24 @@
       "src_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "55363c305097d4c84487bd5f323d29b3f067bf72",
-      "src_sha": "55363c305097d4c84487bd5f323d29b3f067bf72"
+      "dst_sha": "f2574751d8a7ca4e5ec53df9627694dd354f63df",
+      "src_sha": "f2574751d8a7ca4e5ec53df9627694dd354f63df"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "90f01412aebb0361671215be1383ca73527e3ed6",
-      "src_sha": "90f01412aebb0361671215be1383ca73527e3ed6"
+      "dst_sha": "5ef586fdf2834df80c23811b3f7edf03d8ff8695",
+      "src_sha": "5ef586fdf2834df80c23811b3f7edf03d8ff8695"
     },
     "mattpocock--skills": {
       "dst_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
       "src_sha": "5beb35b040e3de97e54fa9e386d7e42d15c295c2"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "64a8b927c1f199c612bcd36dccb6190e6e250eb3",
-      "src_sha": "64a8b927c1f199c612bcd36dccb6190e6e250eb3"
+      "dst_sha": "bd77ffe78d625bb68c430640f4f30231e9cf48e8",
+      "src_sha": "bd77ffe78d625bb68c430640f4f30231e9cf48e8"
     },
     "tt-a1i--archify": {
-      "dst_sha": "25cf37080fc8b1dbe758a4efc3935b55f3327083",
-      "src_sha": "25cf37080fc8b1dbe758a4efc3935b55f3327083"
+      "dst_sha": "51a291770851ad27a400cca73c753c166b5e0c65",
+      "src_sha": "51a291770851ad27a400cca73c753c166b5e0c65"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "063bee94c3f4df8453406c830b0a7df0f2860278",
