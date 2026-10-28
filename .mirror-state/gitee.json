@@ -42,8 +42,8 @@
       "src_sha": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
     },
     "action-daily": {
-      "dst_sha": "1c9365a52bfd1d786856e5d09ec8d034eceadad0",
-      "src_sha": "1c9365a52bfd1d786856e5d09ec8d034eceadad0"
+      "dst_sha": "bf3f6b800c7dd103988010a956081c9586a38fe1",
+      "src_sha": "bf3f6b800c7dd103988010a956081c9586a38fe1"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -54,8 +54,8 @@
       "src_sha": "5434623a788ec3105d238328cfe554e1e2242ff7"
     },
     "anbeime--skill": {
-      "dst_sha": "c0e3bc4827b470fe4dbd93758ae45406c0f35e54",
-      "src_sha": "c0e3bc4827b470fe4dbd93758ae45406c0f35e54"
+      "dst_sha": "3e2440335c3f0941545d2663dbfe2ba03194fea3",
+      "src_sha": "3e2440335c3f0941545d2663dbfe2ba03194fea3"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -98,20 +98,20 @@
       "src_sha": "59db609eb1e18aaf59b63284d0e52255aff0c63c"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "8406047b4e9fdf473f90a19573c6f4575731bb5a",
-      "src_sha": "8406047b4e9fdf473f90a19573c6f4575731bb5a"
+      "dst_sha": "cff331f6ca0a652b5e41641c68dfa5fa584c22ae",
+      "src_sha": "cff331f6ca0a652b5e41641c68dfa5fa584c22ae"
     },
     "tt-a1i--archify": {
-      "dst_sha": "81c6be8d87090670c45d08a8f97f9d29c5af0bec",
-      "src_sha": "81c6be8d87090670c45d08a8f97f9d29c5af0bec"
+      "dst_sha": "d6059331abbddb49bca380ff46dca8ce33158b04",
+      "src_sha": "d6059331abbddb49bca380ff46dca8ce33158b04"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
       "src_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
     },
     "vercel-labs--skills": {
-      "dst_sha": "d8eca76d5dbe47df2d146d036e32534b74ece57a",
-      "src_sha": "d8eca76d5dbe47df2d146d036e32534b74ece57a"
+      "dst_sha": "699d35b21bd3c97dbc0edeae062b2698898bb2e5",
+      "src_sha": "699d35b21bd3c97dbc0edeae062b2698898bb2e5"
     },
     "wshobson--agents": {
       "dst_sha": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
