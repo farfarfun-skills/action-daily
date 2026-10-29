@@ -42,8 +42,8 @@
       "src_sha": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4"
     },
     "action-daily": {
-      "dst_sha": "9b02534a81d28858016653b71bf7629cf1497c76",
-      "src_sha": "9b02534a81d28858016653b71bf7629cf1497c76"
+      "dst_sha": "d57d7d212500f53c7a110fb8760b60f6da495bf6",
+      "src_sha": "d57d7d212500f53c7a110fb8760b60f6da495bf6"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "aeac41d4d005999432bb7312f7ff06383a91d59d",
@@ -66,8 +66,8 @@
       "src_sha": "ca45fc496a3436251f191354091d557da31c15b5"
     },
     "dietrichgebert--ponytail": {
-      "dst_sha": "6309875aa27a788030b8e3f43e29a1342a6370ee",
-      "src_sha": "6309875aa27a788030b8e3f43e29a1342a6370ee"
+      "dst_sha": "7801d061243d7b753bad0e0b3c057cd250b11755",
+      "src_sha": "7801d061243d7b753bad0e0b3c057cd250b11755"
     },
     "farfarfun-skill--lang-spec-hub": {
       "dst_sha": "3c63c0be07c2dcc4b992ab4c0efdd822bf394d27",
