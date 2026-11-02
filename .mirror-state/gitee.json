@@ -34,16 +34,16 @@
       "src_sha": "2b9a89340b70f632d31c0f1c69fce94a7912423e"
     },
     "JimLiu--baoyu-skills": {
-      "dst_sha": "0a27d7d40e79cfe42334e2e9130a1e41a499ca54",
-      "src_sha": "0a27d7d40e79cfe42334e2e9130a1e41a499ca54"
+      "dst_sha": "5792c7dc8d09a28d6969e8970166c5eb090ce6ad",
+      "src_sha": "5792c7dc8d09a28d6969e8970166c5eb090ce6ad"
     },
     "JuliusBrussee--caveman": {
       "dst_sha": "2e068f735253cce28256744804785f01887d9646",
       "src_sha": "2e068f735253cce28256744804785f01887d9646"
     },
     "action-daily": {
-      "dst_sha": "ffcfcea75858b31ad823d244cea43b2a99435b7a",
-      "src_sha": "ffcfcea75858b31ad823d244cea43b2a99435b7a"
+      "dst_sha": "c26a0c40fe715b409afa47feb56382678889cb40",
+      "src_sha": "c26a0c40fe715b409afa47feb56382678889cb40"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "301b02b12bff98e4688e6984af6556802322bbde",
@@ -86,8 +86,8 @@
       "src_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "4907a526b07943b3a338177558d42fae4fdf0a86",
-      "src_sha": "4907a526b07943b3a338177558d42fae4fdf0a86"
+      "dst_sha": "ccf0dc5b00e9dd4e460e60831509eef77565d142",
+      "src_sha": "ccf0dc5b00e9dd4e460e60831509eef77565d142"
     },
     "jakubkrehel--skills": {
       "dst_sha": "60bf140e43c98b248e6594487384ec967e89d98a",
@@ -98,8 +98,8 @@
       "src_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "27db8354e4cf0d5421352aa6862fd8d48998f836",
-      "src_sha": "27db8354e4cf0d5421352aa6862fd8d48998f836"
+      "dst_sha": "3a7bb4dac62dbd7a34a55deb665c55df310bdf64",
+      "src_sha": "3a7bb4dac62dbd7a34a55deb665c55df310bdf64"
     },
     "tt-a1i--archify": {
       "dst_sha": "a4065941f12be7967436261d9934784e381d423c",
@@ -110,8 +110,8 @@
       "src_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
     },
     "vercel-labs--skills": {
-      "dst_sha": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8",
-      "src_sha": "92a9a34ac3bf88e695e468b90c7bf32f163d32c8"
+      "dst_sha": "77cfce8221e6e112a70152a230abc848b8b14c19",
+      "src_sha": "77cfce8221e6e112a70152a230abc848b8b14c19"
     },
     "wshobson--agents": {
       "dst_sha": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
