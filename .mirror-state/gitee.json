@@ -42,20 +42,20 @@
       "src_sha": "2e068f735253cce28256744804785f01887d9646"
     },
     "action-daily": {
-      "dst_sha": "24f7cb7f587c1e96380a02190611f0b80f60e933",
-      "src_sha": "24f7cb7f587c1e96380a02190611f0b80f60e933"
+      "dst_sha": "c01cd1f5c7a58e2c24f1b8dce7e51eebd47840b9",
+      "src_sha": "c01cd1f5c7a58e2c24f1b8dce7e51eebd47840b9"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "301b02b12bff98e4688e6984af6556802322bbde",
       "src_sha": "301b02b12bff98e4688e6984af6556802322bbde"
     },
     "alirezarezvani--claude-skills": {
-      "dst_sha": "c85b17e1fb621ba760478baaacc4fcb9be225e74",
-      "src_sha": "c85b17e1fb621ba760478baaacc4fcb9be225e74"
+      "dst_sha": "8f082544116fc0d014188e521ca40304cdfc86b0",
+      "src_sha": "8f082544116fc0d014188e521ca40304cdfc86b0"
     },
     "anbeime--skill": {
-      "dst_sha": "f9f63ba1036587266dda0858d220f9b80ae9276e",
-      "src_sha": "f9f63ba1036587266dda0858d220f9b80ae9276e"
+      "dst_sha": "9d21a2eeba4453c3d97265d5e8fc72f4f4678c93",
+      "src_sha": "9d21a2eeba4453c3d97265d5e8fc72f4f4678c93"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -98,8 +98,8 @@
       "src_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "b9fbbf8d30861646253c14d0f2c5746c8dc7ea59",
-      "src_sha": "b9fbbf8d30861646253c14d0f2c5746c8dc7ea59"
+      "dst_sha": "3a090b815b9f84873720fa2d0b9bbc114e5054e1",
+      "src_sha": "3a090b815b9f84873720fa2d0b9bbc114e5054e1"
     },
     "tt-a1i--archify": {
       "dst_sha": "a4065941f12be7967436261d9934784e381d423c",
@@ -110,8 +110,8 @@
       "src_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
     },
     "vercel-labs--skills": {
-      "dst_sha": "e80e8255bb89ce3288edc34d6cead20cbb7cc521",
-      "src_sha": "e80e8255bb89ce3288edc34d6cead20cbb7cc521"
+      "dst_sha": "cabe07254cddf16a3a650253f0ba03d543d8a86e",
+      "src_sha": "cabe07254cddf16a3a650253f0ba03d543d8a86e"
     },
     "wshobson--agents": {
       "dst_sha": "7e2fb559cf4b824b27f1fec49fe88f7511066d26",
