@@ -42,8 +42,8 @@
       "src_sha": "3dc497a7f858c774d6e15b25e8c6120ef3a0eda8"
     },
     "action-daily": {
-      "dst_sha": "1a456114be1581b47fe26a402ffe0881a80df8cf",
-      "src_sha": "1a456114be1581b47fe26a402ffe0881a80df8cf"
+      "dst_sha": "85aceee184ccfc6593026326471bc604e072388e",
+      "src_sha": "85aceee184ccfc6593026326471bc604e072388e"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "301b02b12bff98e4688e6984af6556802322bbde",
@@ -54,8 +54,8 @@
       "src_sha": "8f082544116fc0d014188e521ca40304cdfc86b0"
     },
     "anbeime--skill": {
-      "dst_sha": "d7d186b45d2c3cb76921c0647aa5d829d592c31d",
-      "src_sha": "d7d186b45d2c3cb76921c0647aa5d829d592c31d"
+      "dst_sha": "2bd65643cd0cf9896a6bb48a5b49ed46afbe5c67",
+      "src_sha": "2bd65643cd0cf9896a6bb48a5b49ed46afbe5c67"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -90,28 +90,28 @@
       "src_sha": "97dea9e747ea94d5671ef1468cbb8f9bd5f32542"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "659cc4e5b6df90cfe1f306f5ae1c83fa549e075c",
-      "src_sha": "659cc4e5b6df90cfe1f306f5ae1c83fa549e075c"
+      "dst_sha": "72bdd6121cd595f47fd21c9f23e374028c9cbacd",
+      "src_sha": "72bdd6121cd595f47fd21c9f23e374028c9cbacd"
     },
     "mattpocock--skills": {
       "dst_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
       "src_sha": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "b2a7d322ed0bafda04a0b78ce14e4f25c8d5d170",
-      "src_sha": "b2a7d322ed0bafda04a0b78ce14e4f25c8d5d170"
+      "dst_sha": "b6f4008f9be98ecaac0382573fb8083d9891327d",
+      "src_sha": "b6f4008f9be98ecaac0382573fb8083d9891327d"
     },
     "tt-a1i--archify": {
-      "dst_sha": "11b0d6031853bdae89eed57e7979aabbf0034097",
-      "src_sha": "11b0d6031853bdae89eed57e7979aabbf0034097"
+      "dst_sha": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
+      "src_sha": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
       "src_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
     },
     "vercel-labs--skills": {
-      "dst_sha": "d3701c11b1101251af14c9d148f026e1a47ebe17",
-      "src_sha": "d3701c11b1101251af14c9d148f026e1a47ebe17"
+      "dst_sha": "2d2760f0116674329e3f1cde8f4e08c9b735ecf5",
+      "src_sha": "2d2760f0116674329e3f1cde8f4e08c9b735ecf5"
     },
     "wshobson--agents": {
       "dst_sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
