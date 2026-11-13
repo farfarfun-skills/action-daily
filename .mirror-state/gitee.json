@@ -38,12 +38,12 @@
       "src_sha": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "ad473752bdc86ca96d7289443228d4c53ec119a8",
-      "src_sha": "ad473752bdc86ca96d7289443228d4c53ec119a8"
+      "dst_sha": "67968b7a8ac666415a8301e1f2c86ad28567c7ec",
+      "src_sha": "67968b7a8ac666415a8301e1f2c86ad28567c7ec"
     },
     "action-daily": {
-      "dst_sha": "d9098f23431113bff69d4695a87ab8d35d4c9fd4",
-      "src_sha": "d9098f23431113bff69d4695a87ab8d35d4c9fd4"
+      "dst_sha": "24fdb0a24edb8520f902d20f99a352bea0d7a921",
+      "src_sha": "24fdb0a24edb8520f902d20f99a352bea0d7a921"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "301b02b12bff98e4688e6984af6556802322bbde",
@@ -98,12 +98,12 @@
       "src_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "503a73619500a78330239893bd8d0f03686fcf5f",
-      "src_sha": "503a73619500a78330239893bd8d0f03686fcf5f"
+      "dst_sha": "b0e99dfcfadc69377c486e7b2415d29343ddf4ec",
+      "src_sha": "b0e99dfcfadc69377c486e7b2415d29343ddf4ec"
     },
     "tt-a1i--archify": {
-      "dst_sha": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
-      "src_sha": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd"
+      "dst_sha": "e37848822238e3a61b12739185cdadd49843a620",
+      "src_sha": "e37848822238e3a61b12739185cdadd49843a620"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
