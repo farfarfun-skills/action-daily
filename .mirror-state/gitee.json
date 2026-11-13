@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "255ae53ddaeca1984f2e17cb6a5cec083e3ead3c",
-      "src_sha": "255ae53ddaeca1984f2e17cb6a5cec083e3ead3c"
+      "dst_sha": "6aa066d38adf7d750e8656f3bb279e17559b8ebf",
+      "src_sha": "6aa066d38adf7d750e8656f3bb279e17559b8ebf"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "6550495129d9a42eff7e71434d15bfc9846b6202",
@@ -38,24 +38,24 @@
       "src_sha": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "3dc497a7f858c774d6e15b25e8c6120ef3a0eda8",
-      "src_sha": "3dc497a7f858c774d6e15b25e8c6120ef3a0eda8"
+      "dst_sha": "f5523a8e7bd09c30a2e218ca1afe7a1dab5c09ce",
+      "src_sha": "f5523a8e7bd09c30a2e218ca1afe7a1dab5c09ce"
     },
     "action-daily": {
-      "dst_sha": "c536b00f869bd961d296c8b2349d0e557d19ea7c",
-      "src_sha": "c536b00f869bd961d296c8b2349d0e557d19ea7c"
+      "dst_sha": "f6e1cb58f63595c2ab4f0fe1311419f23f36c29f",
+      "src_sha": "f6e1cb58f63595c2ab4f0fe1311419f23f36c29f"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "301b02b12bff98e4688e6984af6556802322bbde",
       "src_sha": "301b02b12bff98e4688e6984af6556802322bbde"
     },
     "alirezarezvani--claude-skills": {
-      "dst_sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02",
-      "src_sha": "9ca476d8401f8750f92f4a7b31ec68efaa61ab02"
+      "dst_sha": "08cd8a9fc86cc370e2c0d448e8171fbcfdbc5a30",
+      "src_sha": "08cd8a9fc86cc370e2c0d448e8171fbcfdbc5a30"
     },
     "anbeime--skill": {
-      "dst_sha": "9e996b44a2ae31e300be17871c0e74dffda1586a",
-      "src_sha": "9e996b44a2ae31e300be17871c0e74dffda1586a"
+      "dst_sha": "e32645e6bb8a3deade6efd44852317d17cbd4248",
+      "src_sha": "e32645e6bb8a3deade6efd44852317d17cbd4248"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -86,20 +86,20 @@
       "src_sha": "d48c376f6461ddfb6274979e9ca33ef9bdbc73c7"
     },
     "ibelick--ui-skills": {
-      "dst_sha": "f511eae41c996e3953fbeabf95d38e4077d40711",
-      "src_sha": "f511eae41c996e3953fbeabf95d38e4077d40711"
+      "dst_sha": "ba966a3aaa4080ab1836d350f3131584e2d4243a",
+      "src_sha": "ba966a3aaa4080ab1836d350f3131584e2d4243a"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "8b254eb75dadf3615a6abce87aed28e1b6e4d77c",
-      "src_sha": "8b254eb75dadf3615a6abce87aed28e1b6e4d77c"
+      "dst_sha": "a72290d140249813898ba8648becf6415abcb059",
+      "src_sha": "a72290d140249813898ba8648becf6415abcb059"
     },
     "mattpocock--skills": {
       "dst_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa",
       "src_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "90ae3c4337431a097bdb6327b211f3fbf77db59b",
-      "src_sha": "90ae3c4337431a097bdb6327b211f3fbf77db59b"
+      "dst_sha": "334b2ae066953e293d40571cd3e205dcf916a731",
+      "src_sha": "334b2ae066953e293d40571cd3e205dcf916a731"
     },
     "tt-a1i--archify": {
       "dst_sha": "7e45f36c66de1254d5ad6ba1d878f6499ea269fd",
@@ -110,8 +110,8 @@
       "src_sha": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
     },
     "vercel-labs--skills": {
-      "dst_sha": "e781cb4d07433dfe1d19e924ed45cc61738c55ec",
-      "src_sha": "e781cb4d07433dfe1d19e924ed45cc61738c55ec"
+      "dst_sha": "b716f9dc2ba36b6aa8f0080615e5a3a6caeac63b",
+      "src_sha": "b716f9dc2ba36b6aa8f0080615e5a3a6caeac63b"
     },
     "wshobson--agents": {
       "dst_sha": "9c61ab243def98f72da12abd41cfcf5bcd91af9d",
