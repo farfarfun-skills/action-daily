@@ -30,8 +30,8 @@
       "src_sha": "be2a406907dbc61b73e6827ded415c96139d13a2"
     },
     "ConardLi--garden-skills": {
-      "dst_sha": "08150e750bdc8c8dc452fb43c8ef5221b71c4308",
-      "src_sha": "08150e750bdc8c8dc452fb43c8ef5221b71c4308"
+      "dst_sha": "9578a34edf3c359da23d8a632b72790834961d11",
+      "src_sha": "9578a34edf3c359da23d8a632b72790834961d11"
     },
     "JimLiu--baoyu-skills": {
       "dst_sha": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d",
@@ -42,8 +42,8 @@
       "src_sha": "b4ee71d557d96e3cbc14f88fa6e953a1362865f5"
     },
     "action-daily": {
-      "dst_sha": "9f083ab99f17feedc5661a6bcf27e7687f84f79d",
-      "src_sha": "9f083ab99f17feedc5661a6bcf27e7687f84f79d"
+      "dst_sha": "5b95c5f9a1f82efc6b1c7b2c0234b8660b4bee86",
+      "src_sha": "5b95c5f9a1f82efc6b1c7b2c0234b8660b4bee86"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "39b723ceebf81474d0557c1fecd01eddab585563",
@@ -62,8 +62,8 @@
       "src_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206"
     },
     "anthropics--skills": {
-      "dst_sha": "2c5958ecac7cee2b583967a2c4981d0f4a75c579",
-      "src_sha": "2c5958ecac7cee2b583967a2c4981d0f4a75c579"
+      "dst_sha": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+      "src_sha": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064"
     },
     "dietrichgebert--ponytail": {
       "dst_sha": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
@@ -98,8 +98,8 @@
       "src_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "12ac7cfd9f8292a889c33710e16cca1c0e8823f3",
-      "src_sha": "12ac7cfd9f8292a889c33710e16cca1c0e8823f3"
+      "dst_sha": "45531b719eab6b2af25c18b35a882b4cc1aeebd6",
+      "src_sha": "45531b719eab6b2af25c18b35a882b4cc1aeebd6"
     },
     "tt-a1i--archify": {
       "dst_sha": "e37848822238e3a61b12739185cdadd49843a620",
