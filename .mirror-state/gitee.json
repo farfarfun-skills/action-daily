@@ -38,12 +38,12 @@
       "src_sha": "ca703c2d7c2c4399a1dc0cf82224f8551e05a96d"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "8e00433f1a573c1b26a2135ec4cb9c67f50e2433",
-      "src_sha": "8e00433f1a573c1b26a2135ec4cb9c67f50e2433"
+      "dst_sha": "a192894723a8f47e7f504c7b5041967ff1f18e55",
+      "src_sha": "a192894723a8f47e7f504c7b5041967ff1f18e55"
     },
     "action-daily": {
-      "dst_sha": "abe8e72acb75b35e11d69c6a55021b287b18ffcd",
-      "src_sha": "abe8e72acb75b35e11d69c6a55021b287b18ffcd"
+      "dst_sha": "f3223d990c8669a5f00ce15d10871c0d7e3dcab8",
+      "src_sha": "f3223d990c8669a5f00ce15d10871c0d7e3dcab8"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "39b723ceebf81474d0557c1fecd01eddab585563",
@@ -54,8 +54,8 @@
       "src_sha": "f8593c4941210a621a6629ce1da9e07897976d5f"
     },
     "anbeime--skill": {
-      "dst_sha": "f62dcfe1a0e171cc7f4788ae27158460d28f7e30",
-      "src_sha": "f62dcfe1a0e171cc7f4788ae27158460d28f7e30"
+      "dst_sha": "7901cd2e9d86723c42b4623e0be75b778ad7062f",
+      "src_sha": "7901cd2e9d86723c42b4623e0be75b778ad7062f"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -90,16 +90,16 @@
       "src_sha": "65cc0edb4f64fe8bfe7e9c59466074de25bece76"
     },
     "jakubkrehel--skills": {
-      "dst_sha": "cf432627442dbd91065f2b027d279ad5652a9f4d",
-      "src_sha": "cf432627442dbd91065f2b027d279ad5652a9f4d"
+      "dst_sha": "276449adf5fa509adaab842b3559cb375ca868a4",
+      "src_sha": "276449adf5fa509adaab842b3559cb375ca868a4"
     },
     "mattpocock--skills": {
       "dst_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa",
       "src_sha": "5863806dd4e15c63174bee4e7515a4256792ecfa"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "960a2b781ec3ac80358bea1886d84be705a879ef",
-      "src_sha": "960a2b781ec3ac80358bea1886d84be705a879ef"
+      "dst_sha": "ea154ce55e6ee709d00afcd0d1865d6468366aa3",
+      "src_sha": "ea154ce55e6ee709d00afcd0d1865d6468366aa3"
     },
     "tt-a1i--archify": {
       "dst_sha": "44781293f38728baf04dbad33ce1a0cef8c39cca",
