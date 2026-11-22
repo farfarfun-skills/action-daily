@@ -22,8 +22,8 @@
       "src_sha": "6aa066d38adf7d750e8656f3bb279e17559b8ebf"
     },
     "Agents365-ai--drawio-skill": {
-      "dst_sha": "6550495129d9a42eff7e71434d15bfc9846b6202",
-      "src_sha": "6550495129d9a42eff7e71434d15bfc9846b6202"
+      "dst_sha": "ae1a42fefc0aa0931df268e48430579f795d6a04",
+      "src_sha": "ae1a42fefc0aa0931df268e48430579f795d6a04"
     },
     "ComposioHQ--awesome-claude-skills": {
       "dst_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
@@ -42,8 +42,8 @@
       "src_sha": "a192894723a8f47e7f504c7b5041967ff1f18e55"
     },
     "action-daily": {
-      "dst_sha": "286e28572000645fb12578a2db3f9019e4fb7d4d",
-      "src_sha": "286e28572000645fb12578a2db3f9019e4fb7d4d"
+      "dst_sha": "d6e003304924cada5480c1e3b5b068a52bcf7b91",
+      "src_sha": "d6e003304924cada5480c1e3b5b068a52bcf7b91"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee",
@@ -54,8 +54,8 @@
       "src_sha": "5909a72e62b5fbb809935fb6a55b58bdbe175074"
     },
     "anbeime--skill": {
-      "dst_sha": "8957ece68690fe1755862cdb01fd6fc23f6dfacb",
-      "src_sha": "8957ece68690fe1755862cdb01fd6fc23f6dfacb"
+      "dst_sha": "be6a247e709ec4e0bec2fe121f11f87c6b6e6b50",
+      "src_sha": "be6a247e709ec4e0bec2fe121f11f87c6b6e6b50"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -66,8 +66,8 @@
       "src_sha": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba"
     },
     "dietrichgebert--ponytail": {
-      "dst_sha": "dec89d9040ad863decb0207003dcd500cb00aa03",
-      "src_sha": "dec89d9040ad863decb0207003dcd500cb00aa03"
+      "dst_sha": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10",
+      "src_sha": "ebd8654c2c627f721eb8f9c0d1bd4090a29f9e10"
     },
     "farfarfun-skill--lang-spec-hub": {
       "dst_sha": "3c63c0be07c2dcc4b992ab4c0efdd822bf394d27",
@@ -102,8 +102,8 @@
       "src_sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "856f14e507c09ceb6ffc7cdc084bf6b207efc8f5",
-      "src_sha": "856f14e507c09ceb6ffc7cdc084bf6b207efc8f5"
+      "dst_sha": "28c11084ad86fdd8c5e17201b459b0f7df919e7b",
+      "src_sha": "28c11084ad86fdd8c5e17201b459b0f7df919e7b"
     },
     "tt-a1i--archify": {
       "dst_sha": "8509a3d63e763b4d454ea9aafa1f939545fcb1ea",
