@@ -18,8 +18,8 @@
   "farfarfun-skill--service-governance": "1b1783cc2c4749996bef7e2b97284c2607986305",
   "github/farfarfun-skills::gitee/farfarfun-skills": {
     ".github": {
-      "dst_sha": "6aa066d38adf7d750e8656f3bb279e17559b8ebf",
-      "src_sha": "6aa066d38adf7d750e8656f3bb279e17559b8ebf"
+      "dst_sha": "7dbed8abab3d8782dbbc3614a879e205d89d0ad3",
+      "src_sha": "7dbed8abab3d8782dbbc3614a879e205d89d0ad3"
     },
     "Agents365-ai--drawio-skill": {
       "dst_sha": "77287b6452503d14faa255309f3c6ad5fb7e1df0",
@@ -42,8 +42,8 @@
       "src_sha": "b89752f6bca5a26bfde8b019813554241800ca99"
     },
     "action-daily": {
-      "dst_sha": "f6221f348061df2972ae9adfec7424fe52ea689f",
-      "src_sha": "f6221f348061df2972ae9adfec7424fe52ea689f"
+      "dst_sha": "e8e54e5deda71dede563fe1d82ae5cc0a0b020ef",
+      "src_sha": "e8e54e5deda71dede563fe1d82ae5cc0a0b020ef"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee",
@@ -102,8 +102,8 @@
       "src_sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "7a2ee0da1cad925465bba6e616e3010bc9243526",
-      "src_sha": "7a2ee0da1cad925465bba6e616e3010bc9243526"
+      "dst_sha": "8ce422e45d0c47ede1c8ea905575b93879c1854b",
+      "src_sha": "8ce422e45d0c47ede1c8ea905575b93879c1854b"
     },
     "tt-a1i--archify": {
       "dst_sha": "3ca198d867ce4b616332f846ff66e5c8e5e60f95",
@@ -118,8 +118,8 @@
       "src_sha": "57217cf86ba38148a57af9e90d14a4c049558330"
     },
     "wshobson--agents": {
-      "dst_sha": "51b9ae3ac68d9c236549a9b57f5dca7e6c0c168c",
-      "src_sha": "51b9ae3ac68d9c236549a9b57f5dca7e6c0c168c"
+      "dst_sha": "1eecf4b58eb380ff7ddc258a11c6586381d67b95",
+      "src_sha": "1eecf4b58eb380ff7ddc258a11c6586381d67b95"
     },
     "yizhiyanhua-ai--fireworks-tech-graph": {
       "dst_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
