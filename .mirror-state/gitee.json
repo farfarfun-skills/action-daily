@@ -42,8 +42,8 @@
       "src_sha": "70f4f34e834893ea9af9f4fc6022266bd56d18b1"
     },
     "action-daily": {
-      "dst_sha": "d6b4143f873ac9c35c2132b0502dd650bfc0a573",
-      "src_sha": "d6b4143f873ac9c35c2132b0502dd650bfc0a573"
+      "dst_sha": "a5f908bb79290dc35aae06a2da2aead8b97bb2c9",
+      "src_sha": "a5f908bb79290dc35aae06a2da2aead8b97bb2c9"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee",
@@ -118,8 +118,8 @@
       "src_sha": "57217cf86ba38148a57af9e90d14a4c049558330"
     },
     "wshobson--agents": {
-      "dst_sha": "12bcec79ec7f24868bc75fe8cd21428ebf5e96d0",
-      "src_sha": "12bcec79ec7f24868bc75fe8cd21428ebf5e96d0"
+      "dst_sha": "51b9ae3ac68d9c236549a9b57f5dca7e6c0c168c",
+      "src_sha": "51b9ae3ac68d9c236549a9b57f5dca7e6c0c168c"
     },
     "yizhiyanhua-ai--fireworks-tech-graph": {
       "dst_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
