@@ -22,8 +22,8 @@
       "src_sha": "7dbed8abab3d8782dbbc3614a879e205d89d0ad3"
     },
     "Agents365-ai--drawio-skill": {
-      "dst_sha": "e0ac39c43e1b2b84e68dd25bb5c504e790448f16",
-      "src_sha": "e0ac39c43e1b2b84e68dd25bb5c504e790448f16"
+      "dst_sha": "9dd28000c6a37ad121f324508749c6ad59e540bc",
+      "src_sha": "9dd28000c6a37ad121f324508749c6ad59e540bc"
     },
     "ComposioHQ--awesome-claude-skills": {
       "dst_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
@@ -38,24 +38,24 @@
       "src_sha": "bf1ff076e25f8da4a339eb1c8cf03361fea5ea4c"
     },
     "JuliusBrussee--caveman": {
-      "dst_sha": "b89752f6bca5a26bfde8b019813554241800ca99",
-      "src_sha": "b89752f6bca5a26bfde8b019813554241800ca99"
+      "dst_sha": "47c61be2d10a354f0c5cbe2b90959d24c06b16c6",
+      "src_sha": "47c61be2d10a354f0c5cbe2b90959d24c06b16c6"
     },
     "action-daily": {
-      "dst_sha": "2163d6d4883f105c86ed868ad05e852c27a7743b",
-      "src_sha": "2163d6d4883f105c86ed868ad05e852c27a7743b"
+      "dst_sha": "e39ad21f5e796ebc1f0a3225f7342c3f5e1ef34f",
+      "src_sha": "e39ad21f5e796ebc1f0a3225f7342c3f5e1ef34f"
     },
     "addyosmani--agent-skills": {
-      "dst_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee",
-      "src_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee"
+      "dst_sha": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
+      "src_sha": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74"
     },
     "alirezarezvani--claude-skills": {
       "dst_sha": "ea7b5ab8da93bbba8880152d9ccb8c9979f12252",
       "src_sha": "ea7b5ab8da93bbba8880152d9ccb8c9979f12252"
     },
     "anbeime--skill": {
-      "dst_sha": "ebd089023e7862f35eb7d65783a207f4ea733b69",
-      "src_sha": "ebd089023e7862f35eb7d65783a207f4ea733b69"
+      "dst_sha": "4fb05f840f8c90a8ec23d4cc9d3e24541bef16c8",
+      "src_sha": "4fb05f840f8c90a8ec23d4cc9d3e24541bef16c8"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -98,16 +98,16 @@
       "src_sha": "672ae44ace6aaed65b86cbb1e2fd6fbea0e79578"
     },
     "mattpocock--skills": {
-      "dst_sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823",
-      "src_sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823"
+      "dst_sha": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e",
+      "src_sha": "d65391149dbb5fe76478e76fa8d5122b2aa5a70e"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "7d26bdaa424551a172f1a4b7ae3c737a0745e8f9",
-      "src_sha": "7d26bdaa424551a172f1a4b7ae3c737a0745e8f9"
+      "dst_sha": "11cfe0910da6e5c5ec188aba4355f390cc1165b1",
+      "src_sha": "11cfe0910da6e5c5ec188aba4355f390cc1165b1"
     },
     "tt-a1i--archify": {
-      "dst_sha": "3ca198d867ce4b616332f846ff66e5c8e5e60f95",
-      "src_sha": "3ca198d867ce4b616332f846ff66e5c8e5e60f95"
+      "dst_sha": "62f3a995eb26ee23f784bdea4a7992340078e9be",
+      "src_sha": "62f3a995eb26ee23f784bdea4a7992340078e9be"
     },
     "vercel-labs--agent-skills": {
       "dst_sha": "5a37a6329fbad3666c3207392a6a7c0110e92efb",
@@ -118,8 +118,8 @@
       "src_sha": "57217cf86ba38148a57af9e90d14a4c049558330"
     },
     "wshobson--agents": {
-      "dst_sha": "34e50fee32114afd9475f25d81492712f08cb71c",
-      "src_sha": "34e50fee32114afd9475f25d81492712f08cb71c"
+      "dst_sha": "c96b5f6552dba32e4492307493ee613581430715",
+      "src_sha": "c96b5f6552dba32e4492307493ee613581430715"
     },
     "yizhiyanhua-ai--fireworks-tech-graph": {
       "dst_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
