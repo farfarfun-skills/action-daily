@@ -22,8 +22,8 @@
       "src_sha": "7dbed8abab3d8782dbbc3614a879e205d89d0ad3"
     },
     "Agents365-ai--drawio-skill": {
-      "dst_sha": "77287b6452503d14faa255309f3c6ad5fb7e1df0",
-      "src_sha": "77287b6452503d14faa255309f3c6ad5fb7e1df0"
+      "dst_sha": "e0ac39c43e1b2b84e68dd25bb5c504e790448f16",
+      "src_sha": "e0ac39c43e1b2b84e68dd25bb5c504e790448f16"
     },
     "ComposioHQ--awesome-claude-skills": {
       "dst_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
@@ -42,8 +42,8 @@
       "src_sha": "b89752f6bca5a26bfde8b019813554241800ca99"
     },
     "action-daily": {
-      "dst_sha": "e8e54e5deda71dede563fe1d82ae5cc0a0b020ef",
-      "src_sha": "e8e54e5deda71dede563fe1d82ae5cc0a0b020ef"
+      "dst_sha": "ba863dd6a578743ec27a38f28948ac5f1a8f718d",
+      "src_sha": "ba863dd6a578743ec27a38f28948ac5f1a8f718d"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "8c99fa36d90068c82d547f7c12a9d67a3e95f4ee",
@@ -54,8 +54,8 @@
       "src_sha": "ea7b5ab8da93bbba8880152d9ccb8c9979f12252"
     },
     "anbeime--skill": {
-      "dst_sha": "35c3a070a0b4ac758549f69be20b50de70b0a1b9",
-      "src_sha": "35c3a070a0b4ac758549f69be20b50de70b0a1b9"
+      "dst_sha": "ebd089023e7862f35eb7d65783a207f4ea733b69",
+      "src_sha": "ebd089023e7862f35eb7d65783a207f4ea733b69"
     },
     "andrewyng--context-hub": {
       "dst_sha": "67dcbeb2eb42c808549f08397920ad58be7c2206",
@@ -102,8 +102,8 @@
       "src_sha": "abeeaf95660ba9e8b7c753eb38f441ca707a8823"
     },
     "paperclipai--paperclip": {
-      "dst_sha": "8ce422e45d0c47ede1c8ea905575b93879c1854b",
-      "src_sha": "8ce422e45d0c47ede1c8ea905575b93879c1854b"
+      "dst_sha": "18aa2b353daa65058fa26eb05875c9cd98072a82",
+      "src_sha": "18aa2b353daa65058fa26eb05875c9cd98072a82"
     },
     "tt-a1i--archify": {
       "dst_sha": "3ca198d867ce4b616332f846ff66e5c8e5e60f95",
@@ -118,8 +118,8 @@
       "src_sha": "57217cf86ba38148a57af9e90d14a4c049558330"
     },
     "wshobson--agents": {
-      "dst_sha": "1eecf4b58eb380ff7ddc258a11c6586381d67b95",
-      "src_sha": "1eecf4b58eb380ff7ddc258a11c6586381d67b95"
+      "dst_sha": "34e50fee32114afd9475f25d81492712f08cb71c",
+      "src_sha": "34e50fee32114afd9475f25d81492712f08cb71c"
     },
     "yizhiyanhua-ai--fireworks-tech-graph": {
       "dst_sha": "1ca1ff9cfcb67893a43d32b9ef3a1b782c44a46f",
