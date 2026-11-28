@@ -45,7 +45,7 @@ jobs:
 
       - name: Mirror all Github repositories to Gitee
         if: always() && steps.repos.outputs.all-repo-names != ''
-        uses: farfarfun-action/mirror-repo@v1
+        uses: farfarfun-action/mirror-repo@v1.3.0
         with:
           src: github/${{ github.repository_owner }}
           dst: gitee/farfarfun-skills
