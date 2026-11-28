@@ -22,8 +22,8 @@
       "src_sha": "7dbed8abab3d8782dbbc3614a879e205d89d0ad3"
     },
     "Agents365-ai--drawio-skill": {
-      "dst_sha": "4133b6a2123e2f980e375364074acde97d804594",
-      "src_sha": "4133b6a2123e2f980e375364074acde97d804594"
+      "dst_sha": "1aee7e2e5015bc222074251daa617a20cdbe00c4",
+      "src_sha": "1aee7e2e5015bc222074251daa617a20cdbe00c4"
     },
     "ComposioHQ--awesome-claude-skills": {
       "dst_sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
@@ -42,8 +42,8 @@
       "src_sha": "e74a11ccdb38b98d15c9f9545787c907dd15f0ab"
     },
     "action-daily": {
-      "dst_sha": "135df780aaa8300c0ded2e5753b44cceca11fc8f",
-      "src_sha": "135df780aaa8300c0ded2e5753b44cceca11fc8f"
+      "dst_sha": "5a160ce073672ccd65cf6f313eee40346dac0919",
+      "src_sha": "5a160ce073672ccd65cf6f313eee40346dac0919"
     },
     "addyosmani--agent-skills": {
       "dst_sha": "e997ac5b9a74eab332d5e9793bb38a38c8cfdd74",
